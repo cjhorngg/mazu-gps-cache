@@ -5,7 +5,6 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
-# 加入寫入權限
 permissions:
   contents: write
 
@@ -20,7 +19,7 @@ jobs:
       - name: 獲取媽祖位置
         id: fetch
         run: |
-          RESPONSE=$(curl -s "https://script.google.com/macros/s/AKfycbyLtgD4OIY8aIjgu-ZCdpIwqGXl6dZ5cKw50RXG_mNxDrPSx3uqeXE8GHDqYToXAlyI/exec?action=getLocations")
+          RESPONSE=$(curl -sL "https://script.google.com/macros/s/AKfycbyLtgD4OIY8aIjgu-ZCdpIwqGXl6dZ5cKw50RXG_mNxDrPSx3uqeXE8GHDqYToXAlyI/exec?action=getLocations")
           echo "data<<EOF" >> $GITHUB_OUTPUT
           echo "$RESPONSE" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
