@@ -1,10 +1,1 @@
-<HTML>
-<HEAD>
-<TITLE>Moved Temporarily</TITLE>
-</HEAD>
-<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
-<!-- GSE Default Error -->
-<H1>Moved Temporarily</H1>
-The document has moved <A HREF="https://script.googleusercontent.com/macros/echo?user_content_key=AWDtjMWffPmGHAJ1YBXnsSfkABxDsSGqv-HsmLH6mHef9TogUqzhwlibd7iSbF-OqftMV32A9RyfF-ZBHs8-1t-NzGMTaH4jmFsrJ8IKuhFrhxLgp8zkV8xaOW5gr6TtnGqhhg7QhbElvM8X2htkfTi4WevIflf5WaqtvJ6v3esmn1cugWNkeB4C6kRK5d3QyueWK0X82VYjvkLQNzfSEufN2QIOSRJLd5CiWFrBRckzv31_gb56hfRFRSc2HJuShWrPQ7xGIyZ1-PMxI6kU58VwVWMG81vHe5iRvbLWPJwNAxHD57dmlhMV1XO59UcbnA&amp;lib=MOLflf5awxzxkJ9j2O2KFKM84CKCbG30-">here</A>.
-</BODY>
-</HTML>
+{"status":"success","source":"traccar","note":"使用備援數據源","updateTime":"2026-04-04 22:28:39","timezone":"Asia/Taipei","mazu":{"lat":24.9430413,"lng":121.3739718,"heading":null,"address":"237台灣新北市三峽區國際一街22號","timestamp":"2026-04-01 20:10:25"}}
