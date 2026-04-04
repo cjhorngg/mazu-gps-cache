@@ -5,6 +5,10 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
+# 加入寫入權限
+permissions:
+  contents: write
+
 jobs:
   update-gps:
     runs-on: ubuntu-latest
