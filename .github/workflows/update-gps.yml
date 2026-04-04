@@ -17,7 +17,9 @@ jobs:
         id: fetch
         run: |
           RESPONSE=$(curl -s "https://script.google.com/macros/s/AKfycbwxdval89OnpxryGvitX87z2zuIjk7meVHRcO0hFGvsbL1JwxUQoX5KcbISzuLnpUSv/exec?action=getLocations")
-          echo "data=$RESPONSE" >> $GITHUB_OUTPUT
+          echo "data<<EOF" >> $GITHUB_OUTPUT
+          echo "$RESPONSE" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
       
       - name: 儲存為 JSON
         run: |
