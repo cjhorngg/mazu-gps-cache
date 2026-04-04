@@ -1,0 +1,33 @@
+name: Update GPS Position
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-gps:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 檢出程式碼
+        uses: actions/checkout@v4
+      
+      - name: 獲取媽祖位置
+        id: fetch
+        run: |
+          RESPONSE=$(curl -s "https://script.google.com/macros/s/AKfycbwxdval89OnpxryGvitX87z2zuIjk7meVHRcO0hFGvsbL1JwxUQoX5KcbISzuLnpUSv/exec?action=getLocations")
+          echo "data=$RESPONSE" >> $GITHUB_OUTPUT
+      
+      - name: 儲存為 JSON
+        run: |
+          mkdir -p web/data
+          echo '${{ steps.fetch.outputs.data }}' > web/data/position.json
+      
+      - name: 提交並推送
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/data/position.json
+          git diff --staged --quiet || git commit -m "更新 GPS 位置 [skip ci]"
+          git push
