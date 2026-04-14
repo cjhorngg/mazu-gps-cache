@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-14 16:40:08",
+  "updateTime": "2026-04-14 16:40:29",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.057564,
-    "lng": 120.534096,
-    "heading": 196,
+    "lat": 24.05729,
+    "lng": 120.533995,
+    "heading": 186,
     "speed": null,
-    "address": "500台灣彰化縣彰化市南興國小",
-    "timestamp": "2026-04-14 16:39:28"
+    "address": "500台灣彰化縣彰化市中山路一段173號",
+    "timestamp": "2026-04-14 16:39:58"
   },
   "leadingFlag": {
     "lat": 24.048436,
