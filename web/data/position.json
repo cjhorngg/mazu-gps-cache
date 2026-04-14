@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-14 16:19:06",
+  "updateTime": "2026-04-14 16:20:06",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.064918,
     "lng": 120.53749,
-    "heading": 25,
+    "heading": 0,
     "speed": null,
     "address": "500台灣彰化县彰化市中山路一段上樓",
-    "timestamp": "2026-04-14 16:13:59"
+    "timestamp": "2026-04-14 16:19:26"
   },
   "leadingFlag": {
-    "lat": 24.048125,
-    "lng": 120.532951,
-    "address": "503台灣彰化縣花壇鄉中山路二段768號"
+    "lat": 24.04839,
+    "lng": 120.532831,
+    "address": "503台灣彰化縣花壇鄉中山路二段770號"
   },
   "weather": {
     "icon": "d01",
