@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-14 12:20:13",
+  "updateTime": "2026-04-14 12:25:08",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.096449,
     "lng": 120.570045,
     "heading": 314,
     "speed": null,
-    "address": "500?????????????749?",
+    "address": "500\\u53f0\\u7063\\u5f70\\u5316\\u7e23\\u5f70\\u5316\\u5e02\\u4e2d\\u5c71\\u8def\\u4e09\\u6bb5749\\u865f",
     "timestamp": "2026-04-14 11:15:55"
   },
   "leadingFlag": {
     "lat": 24.083443,
     "lng": 120.550766,
-    "address": "500?????????????892?"
+    "address": "500\\u53f0\\u7063\\u5f70\\u5316\\u7e23\\u5f70\\u5316\\u5e02\\u4e2d\\u5c71\\u8def\\u4e8c\\u6bb5892\\u865f"
   },
   "weather": {
     "icon": "d01",
