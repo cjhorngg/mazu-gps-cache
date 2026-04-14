@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-15 04:55:05",
+  "updateTime": "2026-04-15 05:00:20",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 23.983561,
@@ -12,13 +12,13 @@
     "timestamp": "2026-04-14 19:28:37"
   },
   "leadingFlag": {
-    "lat": 23.983475,
-    "lng": 120.567481,
-    "address": "515台灣彰化縣大村鄉中山路二段101號"
+    "lat": 23.981366,
+    "lng": 120.569771,
+    "address": "515台灣彰化縣大村鄉中山路二段3號之1號"
   },
   "weather": {
-    "icon": "n01",
+    "icon": "d01",
     "temp": 23,
-    "humidity": 25
+    "humidity": 24
   }
 }
