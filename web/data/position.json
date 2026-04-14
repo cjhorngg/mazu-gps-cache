@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-14 11:15:15",
+  "updateTime": "2026-04-14 11:20:13",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.096449,
@@ -9,7 +9,7 @@
     "heading": 314,
     "speed": null,
     "address": "500?????????????749?",
-    "timestamp": "2026-04-14 11:14:55"
+    "timestamp": "2026-04-14 11:15:55"
   },
   "leadingFlag": {
     "lat": 24.083443,
