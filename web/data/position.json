@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-14 16:09:36",
+  "updateTime": "2026-04-14 16:10:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.065443,
-    "lng": 120.537463,
-    "heading": 218,
+    "lat": 24.065173,
+    "lng": 120.537351,
+    "heading": 196,
     "speed": null,
-    "address": "500台灣彰化縣彰化市中山路一段562號",
-    "timestamp": "2026-04-14 16:08:29"
+    "address": "500台灣彰化縣彰化市秀傳醫院(下客)",
+    "timestamp": "2026-04-14 16:08:59"
   },
   "leadingFlag": {
-    "lat": 24.054126,
+    "lat": 24.053743,
     "lng": 120.533736,
-    "address": "500台灣彰化縣彰化市中山路一段61號"
+    "address": "500台灣彰化縣彰化市中山路一段56之1號"
   },
   "weather": {
     "icon": "d01",
