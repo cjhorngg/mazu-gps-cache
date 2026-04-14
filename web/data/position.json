@@ -1,1 +1,24 @@
-{"status":"success","source":"s.php?g (primary)","updateTime":"2026-04-14 07:54:26","timezone":"Asia/Taipei","mazu":{"lat":24.15016,"lng":120.545573,"heading":166,"speed":null,"address":"432台灣臺中市大肚區沙田路二段595號","timestamp":"2026-04-14 07:53:31"},"leadingFlag":{"lat":24.143471,"lng":120.547828,"address":"432台灣臺中市大肚區沙田路二段361號"},"weather":{"icon":"d01","temp":23,"humidity":22}}
+{
+  "status": "success",
+  "source": "s.php?g (primary)",
+  "updateTime": "2026-04-14 10:18:32",
+  "timezone": "Asia/Taipei",
+  "mazu": {
+    "lat": 24.112544,
+    "lng": 120.581611,
+    "heading": 91,
+    "speed": null,
+    "address": "432???????????100?",
+    "timestamp": "2026-04-14 10:17:55"
+  },
+  "leadingFlag": {
+    "lat": 24.083571,
+    "lng": 120.550815,
+    "address": "500?????????????921?"
+  },
+  "weather": {
+    "icon": "d01",
+    "temp": 27,
+    "humidity": 26
+  }
+}
