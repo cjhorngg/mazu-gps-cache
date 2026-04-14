@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-15 05:25:06",
+  "updateTime": "2026-04-15 05:30:14",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.972285,
-    "lng": 120.57145,
-    "heading": 10,
+    "lat": 23.970588,
+    "lng": 120.569216,
+    "heading": 227,
     "speed": null,
-    "address": "510台灣彰化縣員林市中山路二段528號",
-    "timestamp": "2026-04-15 05:23:59"
+    "address": "510台灣彰化縣員林市員林陸橋762號",
+    "timestamp": "2026-04-15 05:29:59"
   },
   "leadingFlag": {
-    "lat": 23.964631,
-    "lng": 120.566656,
-    "address": "510台灣彰化縣員林市莒光路492之1號"
+    "lat": 23.96032,
+    "lng": 120.566673,
+    "address": "510台灣彰化縣員林市莒光路臨387號"
   },
   "weather": {
     "icon": "d01",
