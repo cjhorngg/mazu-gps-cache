@@ -1,24 +1,24 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-15 07:10:08",
+  "updateTime": "2026-04-15 07:15:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.904308,
-    "lng": 120.538826,
-    "heading": 292,
+    "lat": 23.902458,
+    "lng": 120.537648,
+    "heading": 200,
     "speed": null,
-    "address": "512台灣彰化縣永靖鄉中山路一段11號",
-    "timestamp": "2026-04-15 07:09:27"
+    "address": "522台灣彰化縣田尾鄉中山路二段437號",
+    "timestamp": "2026-04-15 07:13:57"
   },
   "leadingFlag": {
-    "lat": 23.899645,
-    "lng": 120.536099,
-    "address": "522台灣彰化縣田尾鄉中山路二段281號"
+    "lat": 23.896546,
+    "lng": 120.534008,
+    "address": "522台灣彰化縣田尾鄉中山路二段115號"
   },
   "weather": {
     "icon": "d01",
-    "temp": 22,
+    "temp": 23,
     "humidity": 24
   }
 }
