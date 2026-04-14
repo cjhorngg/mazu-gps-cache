@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-14 16:34:38",
+  "updateTime": "2026-04-14 16:35:06",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.061359,
-    "lng": 120.53545,
-    "heading": 201,
+    "lat": 24.061153,
+    "lng": 120.535278,
+    "heading": 208,
     "speed": null,
-    "address": "500台灣彰化縣彰化市南興里(漢銘醫院)",
-    "timestamp": "2026-04-14 16:33:28"
+    "address": "500台灣彰化縣彰化市中山路一段357號",
+    "timestamp": "2026-04-14 16:33:58"
   },
   "leadingFlag": {
     "lat": 24.048435,
