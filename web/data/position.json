@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-16 05:50:09",
+  "updateTime": "2026-04-16 05:55:06",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 23.663538,
@@ -12,9 +12,9 @@
     "timestamp": "2026-04-16 05:45:36"
   },
   "leadingFlag": {
-    "lat": 23.654118,
-    "lng": 120.353798,
-    "address": "633台灣云林县土库镇145縣道"
+    "lat": 23.651023,
+    "lng": 120.351451,
+    "address": "633台灣云林县土库镇145縣道337號"
   },
   "weather": {
     "icon": "d04",
