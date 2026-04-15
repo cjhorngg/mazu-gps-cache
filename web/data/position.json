@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-15 20:25:06",
+  "updateTime": "2026-04-15 20:30:17",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.712801,
-    "lng": 120.429398,
-    "heading": 0,
+    "lat": 23.698454,
+    "lng": 120.424135,
+    "heading": 308,
     "speed": null,
-    "address": "632台灣雲林縣虎尾鎮北平路18號",
-    "timestamp": "2026-04-15 20:24:24"
+    "address": "632台灣雲林縣虎尾鎮林森路二段448-1號",
+    "timestamp": "2026-04-15 20:29:55"
   },
   "leadingFlag": {
     "lat": 23.712673,
