@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-16 04:15:09",
+  "updateTime": "2026-04-16 04:20:10",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.684161,
-    "lng": 120.408686,
-    "heading": 223,
+    "lat": 23.681504,
+    "lng": 120.405725,
+    "heading": 225,
     "speed": null,
-    "address": "632台灣雲林縣虎尾鎮57-3",
-    "timestamp": "2026-04-16 04:14:13"
+    "address": "632台灣雲林縣虎尾鎮下湳",
+    "timestamp": "2026-04-16 04:18:43"
   },
   "leadingFlag": {
-    "lat": 23.670841,
-    "lng": 120.390486,
-    "address": "633台灣雲林縣土庫鎮林森路63號"
+    "lat": 23.670985,
+    "lng": 120.386376,
+    "address": "633台灣雲林縣土庫鎮中央路14號"
   },
   "weather": {
     "icon": "n04",
