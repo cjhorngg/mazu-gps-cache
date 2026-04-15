@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-15 15:25:05",
+  "updateTime": "2026-04-15 15:30:14",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.788471,
-    "lng": 120.447983,
-    "heading": 189,
+    "lat": 23.78495,
+    "lng": 120.446908,
+    "heading": 205,
     "speed": null,
-    "address": "648台灣雲林縣西螺鎮福來路121號",
-    "timestamp": "2026-04-15 15:22:48"
+    "address": "648台灣云林县西螺镇145縣道52號",
+    "timestamp": "2026-04-15 15:29:48"
   },
   "leadingFlag": {
     "lat": 23.764465,
