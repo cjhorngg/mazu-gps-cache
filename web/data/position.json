@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-16 06:40:08",
+  "updateTime": "2026-04-16 06:45:08",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.648305,
-    "lng": 120.349316,
-    "heading": 217,
+    "lat": 23.645218,
+    "lng": 120.346603,
+    "heading": 231,
     "speed": null,
-    "address": "633台灣雲林縣土庫鎮龍興宮",
-    "timestamp": "2026-04-16 06:38:36"
+    "address": "655台灣云林县元长乡145縣道",
+    "timestamp": "2026-04-16 06:44:06"
   },
   "leadingFlag": {
     "lat": 23.625318,
