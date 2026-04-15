@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-15 10:25:06",
+  "updateTime": "2026-04-15 10:30:14",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.83424,
-    "lng": 120.470006,
-    "heading": 239,
+    "lat": 23.831071,
+    "lng": 120.467383,
+    "heading": 220,
     "speed": null,
-    "address": "524台灣彰化縣溪州鄉中山路二段50號",
-    "timestamp": "2026-04-15 10:23:58"
+    "address": "524台灣彰化縣埤頭鄉中山路一段538號",
+    "timestamp": "2026-04-15 10:29:28"
   },
   "leadingFlag": {
     "lat": 23.82956,
