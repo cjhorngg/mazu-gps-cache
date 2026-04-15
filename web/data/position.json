@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-16 06:25:05",
+  "updateTime": "2026-04-16 06:30:14",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.655659,
-    "lng": 120.354926,
-    "heading": 282,
+    "lat": 23.652811,
+    "lng": 120.352813,
+    "heading": 220,
     "speed": null,
-    "address": "633台灣云林县土库镇145縣道145號",
-    "timestamp": "2026-04-16 06:24:06"
+    "address": "633台灣云林县土库镇145縣道335號",
+    "timestamp": "2026-04-16 06:29:36"
   },
   "leadingFlag": {
-    "lat": 23.633336,
-    "lng": 120.336636,
-    "address": "655台灣雲林縣元長鄉振興路141號"
+    "lat": 23.628916,
+    "lng": 120.33534,
+    "address": "655台灣雲林縣元長鄉振興路2-28號"
   },
   "weather": {
     "icon": "d04",
