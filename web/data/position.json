@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-16 07:15:08",
+  "updateTime": "2026-04-16 07:20:08",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.628733,
-    "lng": 120.335323,
-    "heading": 189,
+    "lat": 23.628655,
+    "lng": 120.335426,
+    "heading": 0,
     "speed": null,
-    "address": "655台灣雲林縣元長鄉振興路22號",
-    "timestamp": "2026-04-16 07:13:36"
+    "address": "655台灣雲林縣元長鄉振興路24號",
+    "timestamp": "2026-04-16 07:18:53"
   },
   "leadingFlag": {
-    "lat": 23.622055,
-    "lng": 120.334923,
-    "address": "655台灣雲林縣元長鄉東興路86號"
+    "lat": 23.618438,
+    "lng": 120.334211,
+    "address": "655台灣雲林縣元長鄉東興路33號"
   },
   "weather": {
     "icon": "d04",
