@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-15 10:55:06",
+  "updateTime": "2026-04-15 11:00:20",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.817683,
-    "lng": 120.461926,
-    "heading": 189,
+    "lat": 23.814221,
+    "lng": 120.461226,
+    "heading": 183,
     "speed": null,
-    "address": "RF96+3Q 台灣彰化縣溪州鄉水尾村",
-    "timestamp": "2026-04-15 10:53:52"
+    "address": "RF76+MF 台灣雲林縣西螺鎮福興里",
+    "timestamp": "2026-04-15 10:59:53"
   },
   "leadingFlag": {
-    "lat": 23.824095,
-    "lng": 120.463233,
-    "address": "524台灣彰化县溪州乡145縣道145號"
+    "lat": 23.819978,
+    "lng": 120.462395,
+    "address": "524台灣彰化縣溪州鄉西螺大橋"
   },
   "weather": {
     "icon": "d01",
