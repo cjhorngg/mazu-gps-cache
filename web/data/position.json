@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-16 02:45:09",
+  "updateTime": "2026-04-16 02:50:09",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 23.698454,
@@ -12,8 +12,8 @@
     "timestamp": "2026-04-15 20:43:55"
   },
   "leadingFlag": {
-    "lat": 23.712673,
-    "lng": 120.429694,
+    "lat": 23.712659,
+    "lng": 120.429703,
     "address": "632台灣雲林縣虎尾鎮北平路18號"
   },
   "weather": {
