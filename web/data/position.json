@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-15 10:40:09",
+  "updateTime": "2026-04-15 10:45:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.828115,
-    "lng": 120.465036,
-    "heading": 214,
+    "lat": 23.824895,
+    "lng": 120.463378,
+    "heading": 194,
     "speed": null,
-    "address": "RFH8+62 台灣彰化縣埤頭鄉庄內村",
-    "timestamp": "2026-04-15 10:39:52"
+    "address": "524台灣彰化縣溪州鄉中山路一段24號",
+    "timestamp": "2026-04-15 10:44:22"
   },
   "leadingFlag": {
     "lat": 23.829513,
@@ -19,6 +19,6 @@
   "weather": {
     "icon": "d01",
     "temp": 28,
-    "humidity": 30
+    "humidity": 29
   }
 }
