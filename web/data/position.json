@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-15 09:45:09",
+  "updateTime": "2026-04-15 09:50:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.852073,
-    "lng": 120.488495,
-    "heading": 234,
+    "lat": 23.850286,
+    "lng": 120.485385,
+    "heading": 242,
     "speed": null,
-    "address": "524台灣彰化縣溪州鄉中山路二段705號",
-    "timestamp": "2026-04-15 09:44:28"
+    "address": "524台灣彰化縣溪州鄉正新輪胎",
+    "timestamp": "2026-04-15 09:49:28"
   },
   "leadingFlag": {
-    "lat": 23.838921,
-    "lng": 120.473899,
-    "address": "524台灣彰化縣溪州鄉中山路二段201號"
+    "lat": 23.838513,
+    "lng": 120.473458,
+    "address": "524台灣彰化縣溪州鄉中山路二段173巷10號"
   },
   "weather": {
     "icon": "d01",
