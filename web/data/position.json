@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-16 05:20:09",
+  "updateTime": "2026-04-16 05:25:06",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.669106,
-    "lng": 120.383791,
-    "heading": 248,
+    "lat": 23.667149,
+    "lng": 120.379419,
+    "heading": 252,
     "speed": null,
-    "address": "633台灣雲林縣土庫鎮M99M+96R",
-    "timestamp": "2026-04-16 05:19:22"
+    "address": "633台灣雲林縣土庫鎮下店",
+    "timestamp": "2026-04-16 05:24:22"
   },
   "leadingFlag": {
-    "lat": 23.664596,
-    "lng": 120.375158,
-    "address": "633台灣雲林縣土庫鎮新興"
+    "lat": 23.663311,
+    "lng": 120.371821,
+    "address": "633台灣雲林縣土庫鎮新興街12-5號"
   },
   "weather": {
     "icon": "d04",
