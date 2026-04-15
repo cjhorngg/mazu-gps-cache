@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-16 05:35:06",
+  "updateTime": "2026-04-16 05:40:11",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.666,
-    "lng": 120.377371,
-    "heading": 0,
+    "lat": 23.664535,
+    "lng": 120.375011,
+    "heading": 229,
     "speed": null,
-    "address": "633台灣雲林縣土庫鎮25",
-    "timestamp": "2026-04-16 05:32:56"
+    "address": "633台灣雲林縣土庫鎮新興",
+    "timestamp": "2026-04-16 05:39:36"
   },
   "leadingFlag": {
-    "lat": 23.660913,
-    "lng": 120.363543,
-    "address": "633台灣雲林縣土庫鎮奮起湖"
+    "lat": 23.659088,
+    "lng": 120.359871,
+    "address": "M955+JW 台灣雲林縣土庫鎮奮起里"
   },
   "weather": {
     "icon": "d04",
