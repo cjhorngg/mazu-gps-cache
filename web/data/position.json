@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-15 14:10:08",
+  "updateTime": "2026-04-15 14:15:10",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.799948,
-    "lng": 120.460588,
-    "heading": 220,
+    "lat": 23.80002,
+    "lng": 120.461459,
+    "heading": 88,
     "speed": null,
-    "address": "648台灣雲林縣西螺鎮福興路169號",
-    "timestamp": "2026-04-15 14:09:43"
+    "address": "648台灣雲林縣西螺鎮中山路113號",
+    "timestamp": "2026-04-15 14:12:15"
   },
   "leadingFlag": {
-    "lat": 23.791496,
-    "lng": 120.455015,
-    "address": "648台灣雲林縣西螺鎮平和南路233號"
+    "lat": 23.789346,
+    "lng": 120.45245,
+    "address": "648台灣雲林縣西螺鎮平和南路152號"
   },
   "weather": {
     "icon": "d01",
