@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-15 10:45:09",
+  "updateTime": "2026-04-15 10:50:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.824895,
-    "lng": 120.463378,
-    "heading": 194,
+    "lat": 23.821068,
+    "lng": 120.462618,
+    "heading": 201,
     "speed": null,
-    "address": "524台灣彰化縣溪州鄉中山路一段24號",
-    "timestamp": "2026-04-15 10:44:22"
+    "address": "524台灣彰化縣溪州鄉西螺大橋",
+    "timestamp": "2026-04-15 10:49:22"
   },
   "leadingFlag": {
-    "lat": 23.829513,
-    "lng": 120.466153,
-    "address": "524台灣彰化縣埤頭鄉村外路10號"
+    "lat": 23.827474,
+    "lng": 120.464423,
+    "address": "523台灣彰化縣埤頭鄉彰水路一段2號"
   },
   "weather": {
     "icon": "d01",
