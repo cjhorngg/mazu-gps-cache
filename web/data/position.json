@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 06:10:09",
+  "updateTime": "2026-04-17 06:15:08",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.68815,
-    "lng": 120.322943,
-    "heading": 25,
+    "lat": 23.691376,
+    "lng": 120.324728,
+    "heading": 30,
     "speed": null,
-    "address": "655台灣雲林縣元長鄉台19線",
-    "timestamp": "2026-04-17 06:09:07"
+    "address": "M8RF+HV 台灣雲林縣元長鄉後湖村",
+    "timestamp": "2026-04-17 06:14:07"
   },
   "leadingFlag": {
     "lat": 23.718345,
