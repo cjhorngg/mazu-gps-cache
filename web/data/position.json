@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-16 22:55:07",
+  "updateTime": "2026-04-16 23:00:22",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 23.567865,
@@ -12,8 +12,8 @@
     "timestamp": "2026-04-16 11:02:01"
   },
   "leadingFlag": {
-    "lat": 23.567855,
-    "lng": 120.304661,
+    "lat": 23.567965,
+    "lng": 120.304686,
     "address": "651台灣雲林縣北港鎮中山路178號178前"
   },
   "weather": {
