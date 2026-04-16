@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 04:30:15",
+  "updateTime": "2026-04-17 04:35:07",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.649361,
-    "lng": 120.3136,
-    "heading": 7,
+    "lat": 23.649698,
+    "lng": 120.314781,
+    "heading": 52,
     "speed": null,
-    "address": "655台灣雲林縣元長鄉中山路24之3號",
-    "timestamp": "2026-04-17 04:29:11"
+    "address": "655台灣雲林縣元長鄉安寧街蔣公銅像",
+    "timestamp": "2026-04-17 04:34:41"
   },
   "leadingFlag": {
-    "lat": 23.653818,
-    "lng": 120.313009,
-    "address": "655台灣雲林縣元長鄉中山路213號"
+    "lat": 23.657903,
+    "lng": 120.312735,
+    "address": "655台灣雲林縣元長鄉中山路154之4號"
   },
   "weather": {
     "icon": "n01",
