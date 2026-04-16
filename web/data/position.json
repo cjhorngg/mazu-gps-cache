@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 03:30:16",
+  "updateTime": "2026-04-17 03:35:07",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 23.611693,
@@ -12,9 +12,9 @@
     "timestamp": "2026-04-17 03:21:04"
   },
   "leadingFlag": {
-    "lat": 23.635546,
-    "lng": 120.311225,
-    "address": "655台灣雲林縣元長鄉中山路4-46號"
+    "lat": 23.639366,
+    "lng": 120.311785,
+    "address": "655台灣雲林縣元長鄉中山路4號"
   },
   "weather": {
     "icon": "n01",
