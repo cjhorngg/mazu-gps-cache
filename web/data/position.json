@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 02:35:10",
+  "updateTime": "2026-04-17 02:40:12",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.592016,
-    "lng": 120.301781,
-    "heading": 56,
+    "lat": 23.595679,
+    "lng": 120.303043,
+    "heading": 14,
     "speed": null,
-    "address": "651台灣雲林縣北港鎮華勝路18號",
-    "timestamp": "2026-04-17 02:34:22"
+    "address": "651台灣雲林縣北港鎮華勝路686號",
+    "timestamp": "2026-04-17 02:39:22"
   },
   "leadingFlag": {
-    "lat": 23.594186,
-    "lng": 120.302588,
-    "address": "651台灣雲林縣北港鎮華勝路673號"
+    "lat": 23.59786,
+    "lng": 120.303888,
+    "address": "651台灣雲林縣北港鎮華勝路700-1號"
   },
   "weather": {
     "icon": "n01",
