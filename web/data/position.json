@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 06:40:09",
+  "updateTime": "2026-04-17 06:45:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.710848,
-    "lng": 120.324941,
-    "heading": 2,
+    "lat": 23.715011,
+    "lng": 120.325523,
+    "heading": 357,
     "speed": null,
     "address": "634台灣雲林縣褒忠鄉台19線",
-    "timestamp": "2026-04-17 06:39:37"
+    "timestamp": "2026-04-17 06:44:37"
   },
   "leadingFlag": {
-    "lat": 23.720053,
-    "lng": 120.327563,
-    "address": "634台灣雲林縣褒忠鄉46-18"
+    "lat": 23.723248,
+    "lng": 120.329431,
+    "address": "634台灣雲林縣褒忠鄉台19線162號"
   },
   "weather": {
     "icon": "d04",
