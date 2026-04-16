@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 03:10:10",
+  "updateTime": "2026-04-17 03:15:12",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.607738,
-    "lng": 120.30651,
-    "heading": 22,
+    "lat": 23.611083,
+    "lng": 120.307343,
+    "heading": 33,
     "speed": null,
-    "address": "651台灣雲林縣北港鎮台19線",
-    "timestamp": "2026-04-17 03:09:04"
+    "address": "655台灣雲林縣元長鄉溝皂",
+    "timestamp": "2026-04-17 03:14:04"
   },
   "leadingFlag": {
-    "lat": 23.619993,
-    "lng": 120.309556,
-    "address": "655台灣雲林縣元長鄉西庄(下客)"
+    "lat": 23.623783,
+    "lng": 120.310015,
+    "address": "655台灣雲林縣元長鄉頂西庄"
   },
   "weather": {
     "icon": "n01",
