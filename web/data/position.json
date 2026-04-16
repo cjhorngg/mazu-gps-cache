@@ -1,24 +1,24 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 07:30:15",
+  "updateTime": "2026-04-17 07:35:06",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.735146,
-    "lng": 120.344434,
-    "heading": 9,
+    "lat": 23.738456,
+    "lng": 120.345555,
+    "heading": 32,
     "speed": null,
-    "address": "634台灣雲林縣褒忠鄉王厝寮",
-    "timestamp": "2026-04-17 07:29:37"
+    "address": "633台灣雲林縣土庫鎮西新庄10號",
+    "timestamp": "2026-04-17 07:34:07"
   },
   "leadingFlag": {
-    "lat": 23.746995,
-    "lng": 120.349003,
-    "address": "637台灣雲林縣崙背鄉南光路420號"
+    "lat": 23.75078,
+    "lng": 120.350333,
+    "address": "637台灣雲林縣崙背鄉南光路390號"
   },
   "weather": {
     "icon": "d04",
     "temp": 24,
-    "humidity": 25
+    "humidity": 26
   }
 }
