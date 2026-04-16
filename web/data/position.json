@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 01:25:08",
+  "updateTime": "2026-04-17 01:30:14",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 23.575866,
@@ -9,7 +9,7 @@
     "heading": 299,
     "speed": null,
     "address": "651台灣雲林縣北港鎮北辰路1號",
-    "timestamp": "2026-04-17 01:24:06"
+    "timestamp": "2026-04-17 01:27:06"
   },
   "leadingFlag": {
     "lat": 23.583438,
