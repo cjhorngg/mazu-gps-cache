@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 04:35:07",
+  "updateTime": "2026-04-17 04:40:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.649698,
-    "lng": 120.314781,
+    "lat": 23.6497,
+    "lng": 120.314741,
     "heading": 52,
     "speed": null,
     "address": "655台灣雲林縣元長鄉安寧街蔣公銅像",
-    "timestamp": "2026-04-17 04:34:41"
+    "timestamp": "2026-04-17 04:39:11"
   },
   "leadingFlag": {
-    "lat": 23.657903,
-    "lng": 120.312735,
-    "address": "655台灣雲林縣元長鄉中山路154之4號"
+    "lat": 23.661541,
+    "lng": 120.312826,
+    "address": "655台灣雲林縣元長鄉中山路172之6號"
   },
   "weather": {
     "icon": "n01",
