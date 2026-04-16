@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-16 15:05:06",
+  "updateTime": "2026-04-16 15:10:08",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 23.567865,
@@ -19,6 +19,6 @@
   "weather": {
     "icon": "d04",
     "temp": 29,
-    "humidity": 30
+    "humidity": 29
   }
 }
