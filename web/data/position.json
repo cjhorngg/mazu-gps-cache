@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 08:45:09",
+  "updateTime": "2026-04-17 08:50:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.753958,
-    "lng": 120.351154,
-    "heading": 2,
+    "lat": 23.757731,
+    "lng": 120.352391,
+    "heading": 8,
     "speed": null,
-    "address": "637台灣雲林縣崙背鄉南光路223號",
-    "timestamp": "2026-04-17 08:44:08"
+    "address": "637台灣雲林縣崙背鄉南光路27號",
+    "timestamp": "2026-04-17 08:49:37"
   },
   "leadingFlag": {
     "lat": 23.761825,
