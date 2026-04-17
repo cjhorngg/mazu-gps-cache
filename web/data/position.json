@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 08:15:09",
+  "updateTime": "2026-04-17 08:20:09",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 23.744325,
@@ -12,8 +12,8 @@
     "timestamp": "2026-04-17 07:48:37"
   },
   "leadingFlag": {
-    "lat": 23.761864,
-    "lng": 120.357644,
+    "lat": 23.76182,
+    "lng": 120.357661,
     "address": "637台灣雲林縣崙背鄉南昌路228號"
   },
   "weather": {
