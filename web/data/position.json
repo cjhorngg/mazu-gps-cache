@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 06:05:06",
+  "updateTime": "2026-04-18 06:10:09",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.0241,
@@ -12,9 +12,9 @@
     "timestamp": "2026-04-18 05:59:02"
   },
   "leadingFlag": {
-    "lat": 24.032671,
-    "lng": 120.43775,
-    "address": "50644台灣彰化縣福興鄉員鹿路一段405巷1號"
+    "lat": 24.036569,
+    "lng": 120.436346,
+    "address": "506台灣彰化縣福興鄉員鹿路二段12號"
   },
   "weather": {
     "icon": "d01",
