@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 09:45:08",
+  "updateTime": "2026-04-17 09:50:08",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 23.774531,
@@ -12,9 +12,9 @@
     "timestamp": "2026-04-17 09:40:03"
   },
   "leadingFlag": {
-    "lat": 23.784444,
-    "lng": 120.368358,
-    "address": "649台灣雲林縣二崙鄉大同路63-之13號"
+    "lat": 23.787506,
+    "lng": 120.37028,
+    "address": "649台灣雲林縣二崙鄉大同路65之1號"
   },
   "weather": {
     "icon": "d04",
