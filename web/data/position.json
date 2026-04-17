@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 06:20:09",
+  "updateTime": "2026-04-18 06:25:06",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.026863,
-    "lng": 120.442918,
-    "heading": 336,
+    "lat": 24.028936,
+    "lng": 120.441688,
+    "heading": 323,
     "speed": null,
-    "address": "516台灣彰化縣埔鹽鄉員鹿路一段66號",
-    "timestamp": "2026-04-18 06:19:37"
+    "address": "506台灣彰化縣福興鄉社尾橋",
+    "timestamp": "2026-04-18 06:24:37"
   },
   "leadingFlag": {
-    "lat": 24.044486,
-    "lng": 120.436969,
-    "address": "506台灣彰化縣福興鄉員鹿路二段427號"
+    "lat": 24.048154,
+    "lng": 120.437058,
+    "address": "505台灣彰化縣鹿港鎮地藏王廟[員客]"
   },
   "weather": {
     "icon": "d01",
