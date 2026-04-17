@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 10:50:09",
+  "updateTime": "2026-04-17 11:00:21",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.804539,
-    "lng": 120.387305,
-    "heading": 40,
+    "lat": 23.811086,
+    "lng": 120.393936,
+    "heading": 44,
     "speed": null,
-    "address": "649台灣雲林縣二崙鄉安平路108-之60號",
-    "timestamp": "2026-04-17 10:49:08"
+    "address": "649台灣雲林縣二崙鄉安平路161之24號",
+    "timestamp": "2026-04-17 10:59:38"
   },
   "leadingFlag": {
-    "lat": 23.810918,
-    "lng": 120.393821,
-    "address": "649台灣雲林縣二崙鄉安平路161之24號"
+    "lat": 23.816893,
+    "lng": 120.397006,
+    "address": "649台灣雲林縣二崙鄉太平路179號"
   },
   "weather": {
     "icon": "d04",
