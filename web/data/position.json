@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 11:30:15",
+  "updateTime": "2026-04-17 11:35:06",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 23.823938,
@@ -12,13 +12,13 @@
     "timestamp": "2026-04-17 11:19:02"
   },
   "leadingFlag": {
-    "lat": 23.830925,
-    "lng": 120.398299,
-    "address": "525台灣彰化縣竹塘鄉台19線"
+    "lat": 23.834846,
+    "lng": 120.398658,
+    "address": "525台灣彰化縣竹塘鄉台19線自強大橋"
   },
   "weather": {
-    "icon": "d04",
+    "icon": "d01",
     "temp": 28,
-    "humidity": 29
+    "humidity": 31
   }
 }
