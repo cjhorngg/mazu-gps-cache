@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 17:30:16",
+  "updateTime": "2026-04-17 17:35:06",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.9042,
-    "lng": 120.465306,
-    "heading": 19,
+    "lat": 23.908671,
+    "lng": 120.467738,
+    "heading": 27,
     "speed": null,
-    "address": "523台灣彰化縣埤頭鄉彰水路四段69號",
-    "timestamp": "2026-04-17 17:29:13"
+    "address": "523台灣彰化縣埤頭鄉彰水路四段122號",
+    "timestamp": "2026-04-17 17:34:34"
   },
   "leadingFlag": {
-    "lat": 23.898635,
-    "lng": 120.462373,
-    "address": "523台灣彰化縣埤頭鄉彰水路三段821號"
+    "lat": 23.902121,
+    "lng": 120.464271,
+    "address": "523台灣彰化縣埤頭鄉彰水路四段60號"
   },
   "weather": {
     "icon": "n01",
