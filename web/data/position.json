@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 05:00:22",
+  "updateTime": "2026-04-18 05:05:07",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.00014,
-    "lng": 120.463103,
-    "heading": 295,
+    "lat": 24.00243,
+    "lng": 120.461925,
+    "heading": 326,
     "speed": null,
-    "address": "516台灣彰化縣埔鹽鄉彰化縣埔鹽鄉",
-    "timestamp": "2026-04-18 04:59:32"
+    "address": "516台灣彰化縣埔鹽鄉員鹿路二段91號",
+    "timestamp": "2026-04-18 05:04:32"
   },
   "leadingFlag": {
-    "lat": 24.002418,
-    "lng": 120.461988,
-    "address": "516台灣彰化縣埔鹽鄉員鹿路二段91號"
+    "lat": 24.005583,
+    "lng": 120.460381,
+    "address": "516台灣彰化縣埔鹽鄉員鹿路二段106號"
   },
   "weather": {
     "icon": "n01",
