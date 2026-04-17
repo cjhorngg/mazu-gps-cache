@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 12:10:09",
+  "updateTime": "2026-04-17 12:15:09",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 23.823938,
@@ -12,9 +12,9 @@
     "timestamp": "2026-04-17 11:19:02"
   },
   "leadingFlag": {
-    "lat": 23.853221,
-    "lng": 120.415648,
-    "address": "525台灣彰化縣竹塘鄉中央路一段1501號"
+    "lat": 23.855461,
+    "lng": 120.41936,
+    "address": "525台灣彰化縣竹塘鄉中央路一段1828號"
   },
   "weather": {
     "icon": "d01",
