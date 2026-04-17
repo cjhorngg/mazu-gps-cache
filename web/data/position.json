@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 10:20:10",
+  "updateTime": "2026-04-17 10:25:06",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.798086,
-    "lng": 120.379918,
-    "heading": 34,
+    "lat": 23.80014,
+    "lng": 120.381889,
+    "heading": 311,
     "speed": null,
-    "address": "649台灣雲林縣二崙鄉台19線",
-    "timestamp": "2026-04-17 10:18:56"
+    "address": "649台灣雲林縣二崙鄉10之58號",
+    "timestamp": "2026-04-17 10:24:26"
   },
   "leadingFlag": {
-    "lat": 23.803845,
-    "lng": 120.38663,
-    "address": "649台灣雲林縣二崙鄉中央公路油車橋"
+    "lat": 23.807036,
+    "lng": 120.389896,
+    "address": "649台灣雲林縣二崙鄉安平路220號"
   },
   "weather": {
     "icon": "d04",
