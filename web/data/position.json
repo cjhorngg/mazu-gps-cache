@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 18:35:07",
+  "updateTime": "2026-04-17 18:40:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.951551,
-    "lng": 120.480506,
-    "heading": 5,
+    "lat": 23.953741,
+    "lng": 120.480453,
+    "heading": 353,
     "speed": null,
-    "address": "514台灣彰化縣溪湖鎮糖廠",
-    "timestamp": "2026-04-17 18:34:05"
+    "address": "514台灣彰化縣溪湖鎮彰水路三段8號",
+    "timestamp": "2026-04-17 18:39:05"
   },
   "leadingFlag": {
     "lat": 23.907355,
