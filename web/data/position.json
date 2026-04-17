@@ -1,19 +1,19 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 15:25:06",
+  "updateTime": "2026-04-17 15:30:14",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.85555,
-    "lng": 120.427885,
-    "heading": 186,
+    "lat": 23.855463,
+    "lng": 120.427943,
+    "heading": 125,
     "speed": null,
     "address": "525台灣彰化縣竹塘鄉光明路249-1號",
-    "timestamp": "2026-04-17 15:23:44"
+    "timestamp": "2026-04-17 15:26:44"
   },
   "leadingFlag": {
-    "lat": 23.857113,
-    "lng": 120.429021,
+    "lat": 23.857146,
+    "lng": 120.429045,
     "address": "525台灣彰化縣竹塘鄉中央路二段497號"
   },
   "weather": {
