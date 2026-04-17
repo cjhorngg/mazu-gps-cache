@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 11:25:06",
+  "updateTime": "2026-04-17 11:30:15",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 23.823938,
@@ -12,9 +12,9 @@
     "timestamp": "2026-04-17 11:19:02"
   },
   "leadingFlag": {
-    "lat": 23.826696,
-    "lng": 120.397886,
-    "address": "649台灣雲林縣二崙鄉台19線"
+    "lat": 23.830925,
+    "lng": 120.398299,
+    "address": "525台灣彰化縣竹塘鄉台19線"
   },
   "weather": {
     "icon": "d04",
