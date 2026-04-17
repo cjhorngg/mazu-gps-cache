@@ -1,19 +1,19 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-17 10:45:09",
+  "updateTime": "2026-04-17 10:50:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 23.801553,
-    "lng": 120.383805,
+    "lat": 23.804539,
+    "lng": 120.387305,
     "heading": 40,
     "speed": null,
-    "address": "R92M+JG 台灣雲林縣二崙鄉油車村",
-    "timestamp": "2026-04-17 10:44:08"
+    "address": "649台灣雲林縣二崙鄉安平路108-之60號",
+    "timestamp": "2026-04-17 10:49:08"
   },
   "leadingFlag": {
-    "lat": 23.810533,
-    "lng": 120.393508,
+    "lat": 23.810918,
+    "lng": 120.393821,
     "address": "649台灣雲林縣二崙鄉安平路161之24號"
   },
   "weather": {
