@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 18:05:06",
+  "updateTime": "2026-04-18 18:10:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.286143,
-    "lng": 120.550255,
-    "heading": 359,
+    "lat": 24.28995,
+    "lng": 120.551201,
+    "heading": 16,
     "speed": null,
-    "address": "436台灣臺中市清水區港埠路四段359號",
-    "timestamp": "2026-04-18 18:04:02"
+    "address": "436台灣臺中市清水區慈雲堂(港埠路口)",
+    "timestamp": "2026-04-18 18:09:33"
   },
   "leadingFlag": {
-    "lat": 24.296018,
-    "lng": 120.552921,
-    "address": "436台灣臺中市清水區港埠路五段131號"
+    "lat": 24.299055,
+    "lng": 120.553856,
+    "address": "436台灣臺中市清水區港埠路五段266號"
   },
   "weather": {
     "icon": "n01",
