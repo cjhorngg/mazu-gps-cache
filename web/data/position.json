@@ -1,19 +1,19 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-19 07:05:06",
+  "updateTime": "2026-04-19 07:10:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.428995,
-    "lng": 120.644391,
-    "heading": 33,
+    "lat": 24.431396,
+    "lng": 120.645811,
+    "heading": 198,
     "speed": null,
-    "address": "358台灣苗栗縣苑裡鎮龍德家商(中山路)",
-    "timestamp": "2026-04-19 07:03:44"
+    "address": "358台灣苗栗縣苑裡鎮69-8",
+    "timestamp": "2026-04-19 07:09:45"
   },
   "leadingFlag": {
-    "lat": 24.432956,
-    "lng": 120.646745,
+    "lat": 24.432961,
+    "lng": 120.646825,
     "address": "358台灣苗栗縣苑裡鎮中山路69之26號"
   },
   "weather": {
