@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-19 03:50:09",
+  "updateTime": "2026-04-19 03:55:06",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.347106,
@@ -9,11 +9,11 @@
     "heading": 30,
     "speed": null,
     "address": "439台灣臺中市大安區南安路223巷1號",
-    "timestamp": "2026-04-19 03:49:29"
+    "timestamp": "2026-04-19 03:53:27"
   },
   "leadingFlag": {
-    "lat": 24.347113,
-    "lng": 120.576058,
+    "lat": 24.347148,
+    "lng": 120.576111,
     "address": "439台灣臺中市大安區南安路223巷1號"
   },
   "weather": {
