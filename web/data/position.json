@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 15:55:06",
+  "updateTime": "2026-04-18 16:00:21",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.244763,
@@ -12,9 +12,9 @@
     "timestamp": "2026-04-18 15:49:06"
   },
   "leadingFlag": {
-    "lat": 24.259758,
-    "lng": 120.540604,
-    "address": "435台灣臺中市梧棲區西部濱海快速公路2234號"
+    "lat": 24.263106,
+    "lng": 120.542075,
+    "address": "436台灣臺中市清水區鰲峰路72號"
   },
   "weather": {
     "icon": "d01",
