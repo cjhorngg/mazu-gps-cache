@@ -1,24 +1,24 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 19:05:07",
+  "updateTime": "2026-04-18 19:10:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.331671,
-    "lng": 120.569013,
-    "heading": 0,
+    "lat": 24.33614,
+    "lng": 120.570143,
+    "heading": 8,
     "speed": null,
-    "address": "8HJ9+MJ 台灣臺中市清水區高北里",
-    "timestamp": "2026-04-18 19:04:03"
+    "address": "8HPC+F3 台灣臺中市大安區南埔里",
+    "timestamp": "2026-04-18 19:09:32"
   },
   "leadingFlag": {
-    "lat": 24.334091,
-    "lng": 120.569633,
-    "address": "8HM9+JV 台灣臺中市大安區南埔里"
+    "lat": 24.338765,
+    "lng": 120.570855,
+    "address": "439台灣臺中市大安區甲六路122號"
   },
   "weather": {
     "icon": "n01",
-    "temp": 24,
-    "humidity": 25
+    "temp": 23,
+    "humidity": 23
   }
 }
