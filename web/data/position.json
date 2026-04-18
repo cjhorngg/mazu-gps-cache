@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 16:10:09",
+  "updateTime": "2026-04-18 16:15:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.244763,
-    "lng": 120.539163,
-    "heading": 103,
+    "lat": 24.246558,
+    "lng": 120.539781,
+    "heading": 18,
     "speed": null,
-    "address": "435台灣臺中市梧棲區文昌路431號",
-    "timestamp": "2026-04-18 15:49:06"
+    "address": "435台灣臺中市梧棲區中央路一段956號",
+    "timestamp": "2026-04-18 16:14:10"
   },
   "leadingFlag": {
     "lat": 24.262563,
@@ -18,7 +18,7 @@
   },
   "weather": {
     "icon": "d01",
-    "temp": 26,
-    "humidity": 25
+    "temp": 25,
+    "humidity": 24
   }
 }
