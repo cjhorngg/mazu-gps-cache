@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 13:00:22",
+  "updateTime": "2026-04-18 13:05:06",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.222659,
@@ -12,8 +12,8 @@
     "timestamp": "2026-04-18 12:57:38"
   },
   "leadingFlag": {
-    "lat": 24.23112,
-    "lng": 120.52831,
+    "lat": 24.231238,
+    "lng": 120.528361,
     "address": "43546台灣臺中市梧棲區港埠路一段357號"
   },
   "weather": {
