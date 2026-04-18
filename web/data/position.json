@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 08:25:06",
+  "updateTime": "2026-04-18 08:30:15",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.090645,
-    "lng": 120.448116,
-    "heading": 9,
+    "lat": 24.094168,
+    "lng": 120.448851,
+    "heading": 14,
     "speed": null,
-    "address": "505台灣彰化縣鹿港鎮鹿草路三段104號",
-    "timestamp": "2026-04-18 08:24:06"
+    "address": "505台灣彰化縣鹿港鎮台17線288號",
+    "timestamp": "2026-04-18 08:29:36"
   },
   "leadingFlag": {
-    "lat": 24.113081,
-    "lng": 120.456103,
-    "address": "505台灣彰化縣鹿港鎮鹿草路五段120號"
+    "lat": 24.117196,
+    "lng": 120.456426,
+    "address": "505台灣彰化縣鹿港鎮鹿草路五段328號"
   },
   "weather": {
     "icon": "d01",
