@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 14:25:06",
+  "updateTime": "2026-04-18 14:30:14",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.256501,
@@ -9,7 +9,7 @@
     "heading": 0,
     "speed": null,
     "address": "435台灣臺中市梧棲區文化路二段194號",
-    "timestamp": "2026-04-18 14:24:09"
+    "timestamp": "2026-04-18 14:26:09"
   },
   "leadingFlag": {
     "lat": 24.230916,
