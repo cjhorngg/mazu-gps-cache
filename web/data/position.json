@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 08:55:06",
+  "updateTime": "2026-04-18 09:00:26",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.110838,
-    "lng": 120.456848,
-    "heading": 339,
+    "lat": 24.114428,
+    "lng": 120.456058,
+    "heading": 356,
     "speed": null,
-    "address": "505台灣彰化縣鹿港鎮台17線16號",
-    "timestamp": "2026-04-18 08:54:06"
+    "address": "505台灣彰化縣鹿港鎮烏瓦厝",
+    "timestamp": "2026-04-18 08:59:36"
   },
   "leadingFlag": {
     "lat": 24.132525,
