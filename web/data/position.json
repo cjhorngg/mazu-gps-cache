@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 18:50:08",
+  "updateTime": "2026-04-18 18:55:12",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.320168,
-    "lng": 120.566098,
-    "heading": 21,
+    "lat": 24.324138,
+    "lng": 120.567115,
+    "heading": 20,
     "speed": null,
-    "address": "436台灣臺中市清水區護岸路130巷11號",
-    "timestamp": "2026-04-18 18:48:32"
+    "address": "436台灣臺中市清水區西部濱海快速公路39號",
+    "timestamp": "2026-04-18 18:54:32"
   },
   "leadingFlag": {
-    "lat": 24.321893,
-    "lng": 120.566578,
-    "address": "436台灣臺中市清水區護岸路128之37號"
+    "lat": 24.326171,
+    "lng": 120.567664,
+    "address": "436台灣臺中市清水區西濱公路520號"
   },
   "weather": {
     "icon": "n01",
