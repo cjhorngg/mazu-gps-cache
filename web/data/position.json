@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-19 05:35:06",
+  "updateTime": "2026-04-19 05:40:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.405625,
-    "lng": 120.614048,
-    "heading": 35,
+    "lat": 24.409051,
+    "lng": 120.615281,
+    "heading": 9,
     "speed": null,
-    "address": "CJ47+7J 台灣臺中市大甲區建興里",
-    "timestamp": "2026-04-19 05:33:57"
+    "address": "437台灣臺中市大甲區臨江路95-2號",
+    "timestamp": "2026-04-19 05:38:58"
   },
   "leadingFlag": {
-    "lat": 24.410036,
-    "lng": 120.615463,
-    "address": "437台灣臺中市大甲區李厝前"
+    "lat": 24.413818,
+    "lng": 120.617111,
+    "address": "437台灣臺中市大甲區如意路26之2號"
   },
   "weather": {
     "icon": "d01",
