@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 19:15:09",
+  "updateTime": "2026-04-18 19:20:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.339754,
-    "lng": 120.571099,
-    "heading": 16,
+    "lat": 24.343493,
+    "lng": 120.572516,
+    "heading": 33,
     "speed": null,
-    "address": "439台灣臺中市大安區甲六路122號",
-    "timestamp": "2026-04-18 19:14:02"
+    "address": "439台灣臺中市大安區南安路279號",
+    "timestamp": "2026-04-18 19:19:02"
   },
   "leadingFlag": {
-    "lat": 24.342358,
-    "lng": 120.571895,
-    "address": "439台灣臺中市大安區南安路310巷口"
+    "lat": 24.345643,
+    "lng": 120.574348,
+    "address": "439台灣臺中市大安區南安路237巷6號"
   },
   "weather": {
     "icon": "n01",
