@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 10:20:08",
+  "updateTime": "2026-04-18 10:25:07",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.151831,
-    "lng": 120.474925,
-    "heading": 54,
+    "lat": 24.154194,
+    "lng": 120.477963,
+    "heading": 51,
     "speed": null,
-    "address": "509台灣彰化縣伸港鄉泉厝路210號",
-    "timestamp": "2026-04-18 10:19:00"
+    "address": "509台灣彰化縣伸港鄉建國路409號",
+    "timestamp": "2026-04-18 10:24:05"
   },
   "leadingFlag": {
-    "lat": 24.166891,
-    "lng": 120.489475,
-    "address": "509台灣彰化縣伸港鄉中興路三段臨60號"
+    "lat": 24.167315,
+    "lng": 120.48982,
+    "address": "509台灣彰化縣伸港鄉中興路三段90號"
   },
   "weather": {
     "icon": "d01",
