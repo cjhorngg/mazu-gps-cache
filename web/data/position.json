@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-18 11:35:07",
+  "updateTime": "2026-04-18 11:40:08",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.161828,
@@ -12,9 +12,9 @@
     "timestamp": "2026-04-18 11:19:40"
   },
   "leadingFlag": {
-    "lat": 24.18275,
-    "lng": 120.503263,
-    "address": "5GM3+38 台灣彰化縣伸港鄉溪底村"
+    "lat": 24.185778,
+    "lng": 120.50541,
+    "address": "5GP4+85 台灣彰化縣伸港鄉溪底村"
   },
   "weather": {
     "icon": "d08",
