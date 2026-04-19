@@ -1,19 +1,19 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-19 09:30:14",
+  "updateTime": "2026-04-19 09:35:06",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.461766,
-    "lng": 120.663293,
-    "heading": 3,
+    "lat": 24.462485,
+    "lng": 120.663416,
+    "heading": 0,
     "speed": null,
-    "address": "357台灣苗栗縣通霄鎮中山路325號",
-    "timestamp": "2026-04-19 09:29:03"
+    "address": "357台灣苗栗縣通霄鎮中山路362號",
+    "timestamp": "2026-04-19 09:34:02"
   },
   "leadingFlag": {
-    "lat": 24.472781,
-    "lng": 120.670408,
+    "lat": 24.472968,
+    "lng": 120.670506,
     "address": "357台灣苗栗縣通霄鎮通霄變電所"
   },
   "weather": {
