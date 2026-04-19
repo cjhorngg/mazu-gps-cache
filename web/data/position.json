@@ -1,20 +1,20 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-20 07:25:06",
+  "updateTime": "2026-04-20 07:30:14",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.513728,
-    "lng": 120.691035,
-    "heading": 11,
+    "lat": 24.516408,
+    "lng": 120.691725,
+    "heading": 6,
     "speed": null,
-    "address": "357台灣苗栗縣通霄鎮通灣里65之13號",
-    "timestamp": "2026-04-20 07:23:58"
+    "address": "357台灣苗栗縣通霄鎮通灣里62之18號",
+    "timestamp": "2026-04-20 07:29:28"
   },
   "leadingFlag": {
-    "lat": 24.52074,
-    "lng": 120.692201,
-    "address": "357台灣苗栗縣通霄鎮頭窩"
+    "lat": 24.525414,
+    "lng": 120.692741,
+    "address": "357台灣苗栗縣通霄鎮通灣里44之20號"
   },
   "weather": {
     "icon": "d01",
