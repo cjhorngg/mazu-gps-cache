@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-19 09:25:06",
+  "updateTime": "2026-04-19 09:30:14",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.459036,
-    "lng": 120.66278,
-    "heading": 28,
+    "lat": 24.461766,
+    "lng": 120.663293,
+    "heading": 3,
     "speed": null,
-    "address": "357台灣苗栗縣通霄鎮中山路252號北上台1線138.5K",
-    "timestamp": "2026-04-19 09:24:02"
+    "address": "357台灣苗栗縣通霄鎮中山路325號",
+    "timestamp": "2026-04-19 09:29:03"
   },
   "leadingFlag": {
     "lat": 24.472781,
