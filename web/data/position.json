@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-19 14:30:16",
+  "updateTime": "2026-04-19 14:35:06",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.491033,
@@ -12,8 +12,8 @@
     "timestamp": "2026-04-19 14:09:52"
   },
   "leadingFlag": {
-    "lat": 24.491293,
-    "lng": 120.684266,
+    "lat": 24.491261,
+    "lng": 120.684226,
     "address": "357台灣苗栗縣通霄鎮中正路8號"
   },
   "weather": {
