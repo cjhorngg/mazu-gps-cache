@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-19 07:55:06",
+  "updateTime": "2026-04-19 08:00:20",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.44072,
-    "lng": 120.650558,
-    "heading": 17,
+    "lat": 24.442696,
+    "lng": 120.651451,
+    "heading": 31,
     "speed": null,
-    "address": "358台灣苗栗縣苑裡鎮中山路76之1號",
-    "timestamp": "2026-04-19 07:54:14"
+    "address": "358台灣苗栗縣苑裡鎮苑裡站[苗客]",
+    "timestamp": "2026-04-19 07:59:44"
   },
   "leadingFlag": {
     "lat": 24.448768,
