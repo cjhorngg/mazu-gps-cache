@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-19 10:15:09",
+  "updateTime": "2026-04-19 10:20:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.470303,
-    "lng": 120.666693,
-    "heading": 48,
+    "lat": 24.470325,
+    "lng": 120.666769,
+    "heading": 0,
     "speed": null,
-    "address": "357台灣苗栗縣通霄鎮五北里1號",
-    "timestamp": "2026-04-19 10:14:06"
+    "address": "357台灣苗栗縣通霄鎮五北里3之2號",
+    "timestamp": "2026-04-19 10:19:06"
   },
   "leadingFlag": {
     "lat": 24.4842,
