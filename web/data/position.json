@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-20 10:45:10",
+  "updateTime": "2026-04-20 10:50:09",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.560344,
@@ -12,9 +12,9 @@
     "timestamp": "2026-04-20 10:26:11"
   },
   "leadingFlag": {
-    "lat": 24.561428,
-    "lng": 120.708233,
-    "address": "357台灣苗栗縣通霄鎮內島里1之2號"
+    "lat": 24.563363,
+    "lng": 120.709433,
+    "address": "357台灣苗栗縣通霄鎮啟新國中"
   },
   "weather": {
     "icon": "d01",
