@@ -1,14 +1,14 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-21 06:55:55",
+  "updateTime": "2026-04-21 07:01:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.571331,
-    "lng": 120.709495,
+    "lat": 24.570188,
+    "lng": 120.711358,
     "heading": 304,
     "speed": null,
-    "address": "357台灣苗栗縣通霄鎮白東里10之1號",
+    "address": "357台灣苗栗縣通霄鎮白東里85號",
     "timestamp": "2026-04-20 16:10:07"
   },
   "weather": {
