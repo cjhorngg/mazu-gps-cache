@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "s.php?g (primary) + traccar-flag",
-  "updateTime": "2026-04-21 04:30:18",
+  "updateTime": "2026-04-21 04:35:08",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.571331,
@@ -17,7 +17,7 @@
     "address": "237台灣新北市三峽區國際一街10號"
   },
   "weather": {
-    "icon": "n04",
+    "icon": "d04",
     "temp": 23,
     "humidity": 24
   }
