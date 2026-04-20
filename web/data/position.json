@@ -1,15 +1,15 @@
 {
   "status": "success",
   "source": "s.php?g (primary)",
-  "updateTime": "2026-04-20 11:05:05",
+  "updateTime": "2026-04-20 11:10:09",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.56225,
-    "lng": 120.708543,
-    "heading": 32,
+    "lat": 24.563761,
+    "lng": 120.709793,
+    "heading": 22,
     "speed": null,
-    "address": "357台灣苗栗縣通霄鎮中山路35號",
-    "timestamp": "2026-04-20 11:04:15"
+    "address": "357台灣苗栗縣通霄鎮啟新國中",
+    "timestamp": "2026-04-20 11:09:15"
   },
   "leadingFlag": {
     "lat": 24.565376,
