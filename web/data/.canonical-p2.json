@@ -2,35 +2,34 @@
   "status": "success",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.571296,
-    "lng": 120.709515,
-    "heading": 0,
+    "lat": 24.571413,
+    "lng": 120.709244,
+    "heading": null,
     "speed": null,
-    "address": "357台灣苗栗縣通霄鎮白東里10之1號",
-    "fixTime": "2026-10-14T19:20:19.000Z",
-    "source": "s_php_g"
+    "address": "357台灣苗栗縣通霄鎮白東里拱天路8號",
+    "fixTime": "2026-10-20T13:28:47.270Z",
+    "source": "path_json"
   },
   "flag": null,
   "weather": {
-    "icon": "n01",
-    "temp": 24,
-    "feelsLike": 27,
-    "humidity": 90,
-    "rain": 0,
-    "windText": "東北風 ≤1",
+    "icon": "broken-clouds",
+    "temp": 23,
+    "feelsLike": null,
+    "humidity": null,
+    "rain": null,
+    "windText": null,
     "windLevel": null
   },
-  "length": null,
-  "info": null,
-  "md5": null,
-  "v": null,
+  "length": 0,
+  "info": "❤️ 媽祖愛大家 ❤️ \n明年記得再一起進香！",
+  "md5": "43084f86e9541469727828b005200aa9",
+  "v": "9",
   "stale": false,
   "flagSuspect": null,
   "sources": {
-    "mazu": "s_php_g",
+    "mazu": "path_json",
     "mazuTried": [
-      "path_json",
-      "s_php_g"
+      "path_json"
     ],
     "flag": null,
     "flagTried": [
