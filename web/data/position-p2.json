@@ -1,1 +1,56 @@
-{"status":"success","updateTime":"2026-10-20 21:00:08","timezone":"Asia/Taipei","mazu":{"lat":24.571296,"lng":120.709515,"heading":0,"speed":null,"address":"357台灣苗栗縣通霄鎮白東里10之1號","fixTime":"2026-10-14T19:20:19.000Z","source":"s_php_g"},"flag":null,"weather":{"icon":"n01","temp":24,"feelsLike":27,"humidity":89,"rain":0,"windText":"偏北風 2","windLevel":null},"length":null,"info":null,"md5":null,"v":null,"stale":false,"flagSuspect":null,"sources":{"mazu":"s_php_g","mazuTried":["s_php_g"],"flag":null,"flagTried":["s_php_g","traccar_flag"],"errors":[{"source":"s_php_g","error":"no value for flag"},{"source":"traccar_flag","error":"no value for flag"}]},"github":{"status":"error","message":"HTTP 403: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"403\"}"}}
+{
+  "status": "success",
+  "updateTime": "2026-10-20 21:21:23",
+  "timezone": "Asia/Taipei",
+  "mazu": {
+    "lat": 24.571296,
+    "lng": 120.709515,
+    "heading": 0,
+    "speed": null,
+    "address": "357台灣苗栗縣通霄鎮白東里10之1號",
+    "fixTime": "2026-10-14T19:20:19.000Z",
+    "source": "s_php_g"
+  },
+  "flag": null,
+  "weather": {
+    "icon": "n01",
+    "temp": 24,
+    "feelsLike": 27,
+    "humidity": 90,
+    "rain": 0,
+    "windText": "東北風 ≤1",
+    "windLevel": null
+  },
+  "length": null,
+  "info": null,
+  "md5": null,
+  "v": null,
+  "stale": false,
+  "flagSuspect": null,
+  "sources": {
+    "mazu": "s_php_g",
+    "mazuTried": [
+      "path_json",
+      "s_php_g"
+    ],
+    "flag": null,
+    "flagTried": [
+      "s_php_g",
+      "traccar_flag"
+    ],
+    "errors": [
+      {
+        "source": "path_json",
+        "error": "path.json: version mismatch (9≠8)"
+      },
+      {
+        "source": "s_php_g",
+        "error": "no value for flag"
+      },
+      {
+        "source": "traccar_flag",
+        "error": "no value for flag"
+      }
+    ]
+  }
+}
