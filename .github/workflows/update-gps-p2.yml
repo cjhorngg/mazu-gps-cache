@@ -1,4 +1,4 @@
-name: Update GPS Position
+name: Update GPS Position p2
 
 on:
   schedule:
