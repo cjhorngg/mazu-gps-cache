@@ -1,0 +1,91 @@
+name: Update GPS Position
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mazu-gps-p2
+  cancel-in-progress: false
+
+jobs:
+  update-gps:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch Mazu position from GAS
+        id: fetch
+        env:
+          WEB_APP_SECRET: ${{ secrets.WEB_APP_SECRET }}
+        run: |
+          set -euo pipefail
+
+          URL="https://script.google.com/macros/s/AKfycbyUkj6Y8_tQS9N9Tjjd2etrCHTT17gH4qjxJJEUbZudPzcBBKeuTsH-BoIZJekBtFXcDQ/exec?action=getLocations&includeFlag=true&key=${WEB_APP_SECRET}"
+
+          # 3 attempts with backoff, 20 s max per attempt
+          for i in 1 2 3; do
+            echo "Attempt $i..."
+            HTTP_CODE=$(curl -sSL --max-time 20 -o /tmp/resp.json -w '%{http_code}' "$URL" || echo "000")
+            echo "HTTP $HTTP_CODE"
+            if [ "$HTTP_CODE" = "200" ] && head -c 1 /tmp/resp.json | grep -q '{'; then
+              break
+            fi
+            sleep $((i * 5))
+          done
+
+          if [ ! -s /tmp/resp.json ]; then
+            echo "::error::Empty response from GAS"
+            exit 1
+          fi
+
+          # Reject HTML / error pages
+          if grep -qi '<html' /tmp/resp.json; then
+            echo "::error::GAS returned HTML (deployment access misconfigured?)"
+            exit 1
+          fi
+
+          # Reject JSON-parse failures and forbidden responses
+          if ! jq -e . /tmp/resp.json > /dev/null 2>&1; then
+            echo "::error::Response is not valid JSON"
+            head -c 500 /tmp/resp.json
+            exit 1
+          fi
+
+          STATUS=$(jq -r '.status // "unknown"' /tmp/resp.json)
+          if [ "$STATUS" = "forbidden" ]; then
+            echo "::error::GAS rejected the request (missing/wrong WEB_APP_SECRET?)"
+            exit 1
+          fi
+
+          # Accept success or inactive, reject anything else
+          if [ "$STATUS" != "success" ] && [ "$STATUS" != "inactive" ]; then
+            echo "::error::Unexpected status: $STATUS"
+            cat /tmp/resp.json
+            exit 1
+          fi
+
+          # Write to the path that matches Config.gs
+          mkdir -p web/data
+          mv /tmp/resp.json web/data/position-p2.json
+
+          echo "Fetched OK: status=$STATUS"
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/data/position-p2.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update GPS position [skip ci]"
+          git push
