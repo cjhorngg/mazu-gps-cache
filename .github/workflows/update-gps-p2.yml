@@ -27,9 +27,8 @@ jobs:
         run: |
           set -euo pipefail
 
-          URL="https://script.google.com/macros/s/AKfycbyUkj6Y8_tQS9N9Tjjd2etrCHTT17gH4qjxJJEUbZudPzcBBKeuTsH-BoIZJekBtFXcDQ/exec?action=getLocations&includeFlag=true&key=${WEB_APP_SECRET}"
+          URL="https://script.google.com/macros/s/AKfycbyUkj6Y8_tQS9N9Tjjd2etrCHTT17gH4qjxJJEUbZudPzcBBKeuTsH-BoIZJekBtFXcDQ/exec?action=getLocations&includeFlag=true&skipGitHub=true&key=${WEB_APP_SECRET}"
 
-          # 3 attempts with backoff, 20 s max per attempt
           for i in 1 2 3; do
             echo "Attempt $i..."
             HTTP_CODE=$(curl -sSL --max-time 20 -o /tmp/resp.json -w '%{http_code}' "$URL" || echo "000")
@@ -44,14 +43,10 @@ jobs:
             echo "::error::Empty response from GAS"
             exit 1
           fi
-
-          # Reject HTML / error pages
           if grep -qi '<html' /tmp/resp.json; then
             echo "::error::GAS returned HTML (deployment access misconfigured?)"
             exit 1
           fi
-
-          # Reject JSON-parse failures and forbidden responses
           if ! jq -e . /tmp/resp.json > /dev/null 2>&1; then
             echo "::error::Response is not valid JSON"
             head -c 500 /tmp/resp.json
@@ -63,29 +58,43 @@ jobs:
             echo "::error::GAS rejected the request (missing/wrong WEB_APP_SECRET?)"
             exit 1
           fi
-
-          # Accept success or inactive, reject anything else
           if [ "$STATUS" != "success" ] && [ "$STATUS" != "inactive" ]; then
             echo "::error::Unexpected status: $STATUS"
             cat /tmp/resp.json
             exit 1
           fi
 
-          # Write to the path that matches Config.gs
           mkdir -p web/data
           mv /tmp/resp.json web/data/position-p2.json
-
           echo "Fetched OK: status=$STATUS"
 
       - name: Commit and push
         run: |
           set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add web/data/position-p2.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
+
+          jq 'del(.updateTime, .github, .sources.errors)' web/data/position-p2.json > /tmp/canonical.json
+
+          if [ -f web/data/.canonical-p2.json ] && cmp -s /tmp/canonical.json web/data/.canonical-p2.json; then
+            echo "No meaningful change"
             exit 0
           fi
+          cp /tmp/canonical.json web/data/.canonical-p2.json
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/data/position-p2.json web/data/.canonical-p2.json
           git commit -m "Update GPS position [skip ci]"
-          git push
+
+          for attempt in 1 2 3; do
+            echo "Push attempt $attempt..."
+            if git push origin main; then
+              echo "Push succeeded"
+              exit 0
+            fi
+            echo "Push failed, rebasing..."
+            git pull --rebase origin main || true
+            sleep $((attempt * 3))
+          done
+
+          echo "::error::Push failed after 3 attempts"
+          exit 1
