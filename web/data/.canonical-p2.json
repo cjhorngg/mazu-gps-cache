@@ -7,15 +7,21 @@
     "heading": null,
     "speed": null,
     "address": "357台灣苗栗縣通霄鎮白東里拱天路8號",
-    "fixTime": "2026-10-22T00:56:33.311Z",
+    "fixTime": "2026-10-22T04:50:39.590Z",
     "source": "path_json"
   },
-  "flag": null,
+  "flag": {
+    "lat": 25.051593,
+    "lng": 121.287416,
+    "address": "338台灣桃園市蘆竹區錦中里南崁路一段129號",
+    "fixTime": "2026-10-14T19:20:19.000Z",
+    "source": "s_php_g"
+  },
   "weather": {
-    "icon": "d04",
-    "temp": 24,
-    "feelsLike": 20,
-    "humidity": 80,
+    "icon": "d07",
+    "temp": 27,
+    "feelsLike": 23,
+    "humidity": 69,
     "rain": 10,
     "windText": "東北風 ≥6",
     "windLevel": null
@@ -25,13 +31,13 @@
   "md5": "43084f86e9541469727828b005200aa9",
   "v": "9",
   "stale": false,
-  "flagSuspect": null,
+  "flagSuspect": "too-far-while-resting",
   "sources": {
     "mazu": "path_json",
     "mazuTried": [
       "path_json"
     ],
-    "flag": null,
+    "flag": "s_php_g",
     "flagTried": [
       "s_php_g"
     ],
