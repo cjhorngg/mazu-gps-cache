@@ -7,7 +7,7 @@
     "heading": null,
     "speed": null,
     "address": "357台灣苗栗縣通霄鎮白東里拱天路8號",
-    "fixTime": "2026-10-23T00:58:57.777Z",
+    "fixTime": "2026-10-23T05:54:46.376Z",
     "source": "path_json"
   },
   "flag": {
@@ -19,10 +19,10 @@
   },
   "weather": {
     "icon": "d14",
-    "temp": 24,
-    "feelsLike": 21,
-    "humidity": 93,
-    "rain": 90,
+    "temp": 28,
+    "feelsLike": 25,
+    "humidity": 85,
+    "rain": 80,
     "windText": "偏北風 ≥6",
     "windLevel": null
   },
