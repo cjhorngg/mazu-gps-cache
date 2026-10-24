@@ -1,16 +1,16 @@
 {
   "status": "success",
   "source": "traccar",
-  "updateTime": "2026-10-24 12:19:46",
+  "updateTime": "2026-10-24 17:19:06",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.943617,
-    "lng": 121.3739882,
-    "heading": 359.5115966796875,
-    "speed": 2.18,
-    "address": "237台灣新北市三峽區龍恩里國際二街5號",
-    "timestamp": "20261024121915",
-    "fixTime": "2026-10-24 12:19:15"
+    "lat": 24.9436704,
+    "lng": 121.3738696,
+    "heading": 297.5633239746094,
+    "speed": 2.86,
+    "address": "237台灣新北市三峽區龍恩里國際二街9號1樓",
+    "timestamp": "20261024122008",
+    "fixTime": "2026-10-24 12:20:08"
   },
   "weather": null,
   "leadingFlag": {
@@ -23,5 +23,5 @@
     "lng": 121.3741943,
     "address": "237台灣新北市三峽區龍恩里國際一街20號"
   },
-  "parkedSince": "2026-10-24 12:19:46"
+  "parkedSince": "2026-10-24 13:57:19"
 }
