@@ -7,7 +7,7 @@
     "heading": null,
     "speed": null,
     "address": "357台灣苗栗縣通霄鎮白東里拱天路8號",
-    "fixTime": "2026-10-24T13:35:58.286Z",
+    "fixTime": "2026-10-24T13:38:50.534Z",
     "source": "path_json"
   },
   "flag": {
@@ -52,6 +52,5 @@
     "address": "338台灣桃園市蘆竹區錦中里南崁路一段129號",
     "fixTime": "2026-10-14T19:20:19.000Z",
     "source": "s_php_g"
-  },
-  "parkedSince": "2026-10-24 21:35:59"
+  }
 }
