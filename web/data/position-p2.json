@@ -1,6 +1,6 @@
 {
   "status": "success",
-  "updateTime": "2026-10-24 21:53:32",
+  "updateTime": "2026-10-24 23:12:25",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.571413,
@@ -8,7 +8,7 @@
     "heading": null,
     "speed": null,
     "address": "357台灣苗栗縣通霄鎮白東里拱天路8號",
-    "fixTime": "2026-10-24T13:53:31.866Z",
+    "fixTime": "2026-10-24T15:12:24.355Z",
     "source": "path_json"
   },
   "flag": {
@@ -20,7 +20,7 @@
   },
   "weather": {
     "icon": "n08",
-    "temp": 23,
+    "temp": 22,
     "feelsLike": 21,
     "humidity": 88,
     "rain": 30,
@@ -55,5 +55,5 @@
     "fixTime": "2026-10-14T19:20:19.000Z",
     "source": "s_php_g"
   },
-  "parkedSince": "2026-10-24 21:50:02"
+  "parkedSince": "2026-10-24 21:53:33"
 }
