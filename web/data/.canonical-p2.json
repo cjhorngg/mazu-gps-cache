@@ -7,7 +7,7 @@
     "heading": null,
     "speed": null,
     "address": "357台灣苗栗縣通霄鎮白東里拱天路8號",
-    "fixTime": "2026-10-24T13:38:50.534Z",
+    "fixTime": "2026-10-24T16:56:19.537Z",
     "source": "path_json"
   },
   "flag": {
@@ -18,12 +18,12 @@
     "source": "s_php_g"
   },
   "weather": {
-    "icon": "n08",
-    "temp": 23,
+    "icon": "n07",
+    "temp": 22,
     "feelsLike": 21,
     "humidity": 88,
-    "rain": 30,
-    "windText": "東南風 4",
+    "rain": 10,
+    "windText": "偏東風 4",
     "windLevel": null
   },
   "length": 0,
@@ -52,5 +52,6 @@
     "address": "338台灣桃園市蘆竹區錦中里南崁路一段129號",
     "fixTime": "2026-10-14T19:20:19.000Z",
     "source": "s_php_g"
-  }
+  },
+  "parkedSince": "2026-10-24 21:53:33"
 }
