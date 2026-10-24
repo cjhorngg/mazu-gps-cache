@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "traccar",
-  "updateTime": "2026-10-24 11:23:50",
+  "updateTime": "2026-10-24 12:10:16",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.9439329,
@@ -22,5 +22,6 @@
     "lat": 24.9430412,
     "lng": 121.3741943,
     "address": "237台灣新北市三峽區龍恩里國際一街20號"
-  }
+  },
+  "parkedSince": "2026-10-24 12:08:32"
 }
