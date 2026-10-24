@@ -1,16 +1,18 @@
-name: Update GPS Position Unified Baishatun
+name: Update GPS Position Baishatun
 
 on:
   schedule:
-    # Every 5 minutes. GitHub Actions free tier minimum is 5 min;
-    # the GAS writer self-throttles to one commit per GITHUB_WRITE_INTERVAL_MS
-    # (default 30 s floor) and movement-gated, so 5 min is safe.
+    # Every 5 minutes. GAS `cronPush` is movement-gated; the workflow also
+    # gates on position fields, so no-op runs produce no commit.
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Serialise runs of THIS workflow. Note: `concurrency` is per-workflow, so
+# it does NOT protect against another workflow pushing to the same repo.
+# The "Fetch" + "Commit and push" steps below are written to tolerate that.
 concurrency:
   group: mazu-gps-baishatun
   cancel-in-progress: false
@@ -32,9 +34,6 @@ jobs:
 
           # Baishatun-only GAS deployment.
           # action=cronPush → buildPositionResponse_(includeFlag=true) + updateGitHubCache_
-          # The GAS writer is movement-gated, so repeated identical positions
-          # return {"status":"skipped"} — the commit step below sees "no change"
-          # and exits cleanly. Only real movement produces a new commit.
           URL="https://script.google.com/macros/s/AKfycbxJAlXwKv8tUgc9DQEpSDxPSLHI0Gl8deFqiDgbCoYHzz-xIKDAd8g0n8G5pGMErrq9pg/exec?action=cronPush&key=${WEB_APP_SECRET}"
 
           for i in 1 2 3; do
@@ -80,32 +79,69 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Strip volatile fields (updateTime, github sub-object) so that
-          # the canonical diff only reflects real state changes.
-          # NOTE: parkedSince is NOT stripped — it is part of the payload
-          # and must be preserved so the frontend can distinguish "parked"
-          # from "dead writer".
-          jq 'del(.updateTime, .github)' web/data/position-baishatun.json > /tmp/canonical.json
+          # ---- Fix 2: compare only position-relevant fields ----
+          # Fields that MUST advance on movement: mazu.lat/lng, flag.lat/lng,
+          # mazu.source. We strip everything that changes every tick
+          # (updateTime, parkedSince, github, the whole `sources` block, and
+          # the per-element timestamps), so the comparison only fires on
+          # real position changes.
+          jq '{
+            status,
+            mazu: (if .mazu then {lat: .mazu.lat, lng: .mazu.lng, source: .mazu.source} else null end),
+            leadingFlag: (if .leadingFlag then {lat: .leadingFlag.lat, lng: .leadingFlag.lng} else null end),
+            flag: (if .flag then {lat: .flag.lat, lng: .flag.lng} else null end)
+          }' web/data/position-baishatun.json > /tmp/pos-signature.json
 
-          if [ -f web/data/.canonical-baishatun.json ] && cmp -s /tmp/canonical.json web/data/.canonical-baishatun.json; then
-            echo "No meaningful change"
+          # ---- Fix 2: the committed file keeps the FULL payload ----
+          # (frontend needs parkedSince, updateTime, flag/leadingFlag, etc.)
+          jq 'del(.github)' web/data/position-baishatun.json > /tmp/position-committed.json
+
+          NEW_SIG=$(sha256sum /tmp/pos-signature.json | awk '{print $1}')
+          OLD_SIG=""
+          if [ -f web/data/.pos-signature-baishatun.json ]; then
+            OLD_SIG=$(sha256sum web/data/.pos-signature-baishatun.json | awk '{print $1}')
+          fi
+
+          if [ "$NEW_SIG" = "$OLD_SIG" ]; then
+            echo "Position unchanged (signature $NEW_SIG); skipping commit."
             exit 0
           fi
-          cp /tmp/canonical.json web/data/.canonical-baishatun.json
 
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add web/data/position-baishatun.json web/data/.canonical-baishatun.json
-          git commit -m "Update GPS position [skip ci]"
+          # ---- Fix 1: write files, then loop fetch/reset/commit/push ----
+          # Save the freshly built canonical files somewhere safe so the
+          # reset in the loop doesn't destroy them.
+          cp /tmp/position-committed.json /tmp/keep-position.json
+          cp /tmp/pos-signature.json     /tmp/keep-signature.json
 
           for attempt in 1 2 3; do
-            echo "Push attempt $attempt..."
-            if git push origin main; then
-              echo "Push succeeded"
+            echo "===== Push attempt $attempt ====="
+
+            # Always rebuild from remote HEAD so a previous run's commit
+            # cannot collide with ours.
+            git fetch origin main
+            git reset --hard origin/main
+
+            # Restore the payload we just fetched.
+            cp /tmp/keep-position.json  web/data/position-baishatun.json
+            cp /tmp/keep-signature.json web/data/.pos-signature-baishatun.json
+
+            # Stage + commit.
+            git add web/data/position-baishatun.json web/data/.pos-signature-baishatun.json
+            if git diff --cached --quiet; then
+              echo "Nothing to commit after reset (remote already has our state)."
               exit 0
             fi
-            echo "Push failed, rebasing..."
-            git pull --rebase origin main || true
+
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update GPS position [skip ci]"
+
+            if git push origin main; then
+              echo "Push succeeded on attempt $attempt."
+              exit 0
+            fi
+
+            echo "Push rejected; will rebuild from remote HEAD and retry."
             sleep $((attempt * 3))
           done
 
