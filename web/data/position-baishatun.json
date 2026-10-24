@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "source": "traccar",
+  "updateTime": "2026-10-24 11:23:50",
+  "timezone": "Asia/Taipei",
+  "mazu": {
+    "lat": 24.9439329,
+    "lng": 121.3741973,
+    "heading": 0,
+    "speed": 0,
+    "address": "237台灣新北市三峽區龍恩里國際二街5號",
+    "timestamp": "20261024111719",
+    "fixTime": "2026-10-24 11:17:19"
+  },
+  "weather": null,
+  "leadingFlag": {
+    "lat": 24.9430412,
+    "lng": 121.3741943,
+    "address": "237台灣新北市三峽區龍恩里國際一街20號"
+  },
+  "flag": {
+    "lat": 24.9430412,
+    "lng": 121.3741943,
+    "address": "237台灣新北市三峽區龍恩里國際一街20號"
+  }
+}
