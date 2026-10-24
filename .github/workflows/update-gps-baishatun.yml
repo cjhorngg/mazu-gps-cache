@@ -35,7 +35,7 @@ jobs:
           # The GAS writer is movement-gated, so repeated identical positions
           # return {"status":"skipped"} — the commit step below sees "no change"
           # and exits cleanly. Only real movement produces a new commit.
-          URL="https://script.google.com/macros/s/AKfycbyUkj6Y8_tQS9N9Tjjd2etrCHTT17gH4qjxJJEUbZudPzcBBKeuTsH-BoIZJekBtFXcDQ/exec?action=cronPush&key=${WEB_APP_SECRET}"
+          URL="https://script.google.com/macros/s/AKfycbxJAlXwKv8tUgc9DQEpSDxPSLHI0Gl8deFqiDgbCoYHzz-xIKDAd8g0n8G5pGMErrq9pg/exec?action=cronPush&key=${WEB_APP_SECRET}"
 
           for i in 1 2 3; do
             echo "Attempt $i..."
