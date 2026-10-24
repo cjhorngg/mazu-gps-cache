@@ -1,26 +1,6 @@
 {
-  "status": "success",
-  "source": "traccar",
-  "updateTime": "2026-10-24 23:08:03",
-  "timezone": "Asia/Taipei",
-  "mazu": {
-    "lat": 24.9436704,
-    "lng": 121.3738696,
-    "heading": 297.5633239746094,
-    "speed": 2.86,
-    "address": "237台灣新北市三峽區龍恩里國際二街9號1樓",
-    "timestamp": "20261024122008",
-    "fixTime": "2026-10-24 12:20:08"
-  },
-  "weather": null,
-  "leadingFlag": {
-    "lat": 24.9430412,
-    "lng": 121.3741943,
-    "address": "237台灣新北市三峽區龍恩里國際一街20號"
-  },
-  "flag": {
-    "lat": 24.9430412,
-    "lng": 121.3741943,
-    "address": "237台灣新北市三峽區龍恩里國際一街20號"
-  }
+  "status": "error",
+  "message": "Exception: Address unavailable: http://123.205.196.54:8082/api/devices",
+  "updateTime": "2026-10-25 00:57:49",
+  "timezone": "Asia/Taipei"
 }
