@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "source": "traccar",
+  "updateTime": "2026-10-26 01:21:11",
+  "timezone": "Asia/Taipei",
+  "devices": [
+    {
+      "id": 1,
+      "name": "媽祖",
+      "lat": 24.9435461,
+      "lng": 121.3740856,
+      "fixTime": "2026-10-25T17:03:40.000+00:00",
+      "heading": 0,
+      "speed": 0,
+      "status": "unknown",
+      "lastUpdate": "2026-10-25T17:03:47.049+00:00"
+    },
+    {
+      "id": 2,
+      "name": "頭旗",
+      "lat": 24.9430412,
+      "lng": 121.3741943,
+      "fixTime": "2026-04-11T09:13:18.825+00:00",
+      "heading": 0,
+      "speed": 0,
+      "status": "offline",
+      "lastUpdate": "2026-04-11T09:13:25.501+00:00"
+    }
+  ]
+}
