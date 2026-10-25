@@ -2,7 +2,7 @@ name: Update GPS Position p2
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
