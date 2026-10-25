@@ -23,7 +23,7 @@ jobs:
       - name: Fetch position from GAS
         id: fetch
         env:
-          WEB_APP_SECRET: ${{ secrets.WEB_APP_SECRET_TRACCAR }}
+          WEB_APP_SECRET: ${{ secrets.WEB_APP_SECRET }}
         run: |
           set -euo pipefail
 
