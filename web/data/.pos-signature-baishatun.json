@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "mazu": {
+    "lat": 24.9434652,
+    "lng": 121.3738264,
+    "source": null
+  },
+  "leadingFlag": {
+    "lat": 24.9430412,
+    "lng": 121.3741943
+  },
+  "flag": null
+}
