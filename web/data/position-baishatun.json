@@ -1,8 +1,7 @@
 {
   "status": "success",
-  "source": "traccar",
+  "message": "committed (moved)",
   "updateTime": "2026-10-25 12:45:27",
-  "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.9442077,
     "lng": 121.3736262,
@@ -12,16 +11,9 @@
     "timestamp": "20261025124401",
     "fixTime": "2026-10-25 12:44:01"
   },
-  "weather": null,
   "leadingFlag": {
     "lat": 24.9430412,
     "lng": 121.3741943,
     "address": "237台灣新北市三峽區龍恩里國際一街20號"
-  },
-  "flag": {
-    "lat": 24.9430412,
-    "lng": 121.3741943,
-    "address": "237台灣新北市三峽區龍恩里國際一街20號"
-  },
-  "parkedSince": "2026-10-25 12:30:41"
+  }
 }
