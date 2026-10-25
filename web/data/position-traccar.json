@@ -1,8 +1,7 @@
 {
   "status": "success",
-  "source": "traccar",
+  "message": "committed (moved)",
   "updateTime": "2026-10-26 01:35:55",
-  "timezone": "Asia/Taipei",
   "devices": [
     {
       "id": 5,
@@ -48,6 +47,5 @@
       "heading": 0,
       "speed": 0
     }
-  ],
-  "parkedSince": "2026-10-26 01:21:11"
+  ]
 }

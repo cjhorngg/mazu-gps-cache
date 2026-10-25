@@ -2,6 +2,16 @@
   "status": "success",
   "devices": [
     {
+      "name": "RWS 20",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "name": "ZenLife",
+      "lat": null,
+      "lng": null
+    },
+    {
       "name": "媽祖",
       "lat": 24.9435461,
       "lng": 121.3740856
