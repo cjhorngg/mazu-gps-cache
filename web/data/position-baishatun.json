@@ -1,19 +1,6 @@
 {
-  "status": "success",
-  "message": "committed (moved)",
-  "updateTime": "2026-10-25 10:29:52",
-  "mazu": {
-    "lat": 24.9434652,
-    "lng": 121.3738264,
-    "heading": 0,
-    "speed": 0,
-    "address": "237台灣新北市三峽區龍恩里國際一街20號",
-    "timestamp": "20261025001810",
-    "fixTime": "2026-10-25 00:18:10"
-  },
-  "leadingFlag": {
-    "lat": 24.9430412,
-    "lng": 121.3741943,
-    "address": "237台灣新北市三峽區龍恩里國際一街20號"
-  }
+  "status": "error",
+  "message": "Exception: Address unavailable: http://123.205.196.54:8082/api/devices",
+  "updateTime": "2026-10-25 10:36:01",
+  "timezone": "Asia/Taipei"
 }
