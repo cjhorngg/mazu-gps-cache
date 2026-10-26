@@ -1,8 +1,7 @@
 {
   "status": "success",
-  "source": "traccar",
+  "message": "committed (moved)",
   "updateTime": "2026-10-26 21:20:33",
-  "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.9436405,
     "lng": 121.3740817,
@@ -12,16 +11,9 @@
     "timestamp": "20261026210722",
     "fixTime": "2026-10-26 21:07:22"
   },
-  "weather": null,
   "leadingFlag": {
     "lat": 24.9430412,
     "lng": 121.3741943,
     "address": "No. 20, Guoji 1st St, 龍恩里三峽區新北市台灣 237"
-  },
-  "flag": {
-    "lat": 24.9430412,
-    "lng": 121.3741943,
-    "address": "No. 20, Guoji 1st St, 龍恩里三峽區新北市台灣 237"
-  },
-  "parkedSince": "2026-10-25 16:59:25"
+  }
 }
