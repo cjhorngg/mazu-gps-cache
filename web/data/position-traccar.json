@@ -1,7 +1,9 @@
 {
   "status": "success",
-  "message": "committed (moved)",
-  "updateTime": "2026-10-26 01:35:55",
+  "server": "traccar",
+  "source": "traccar",
+  "updateTime": "2026-10-26 20:32:50",
+  "timezone": "Asia/Taipei",
   "devices": [
     {
       "id": 5,
@@ -28,7 +30,7 @@
     {
       "id": 1,
       "name": "媽祖",
-      "status": "unknown",
+      "status": "offline",
       "lastUpdate": "2026-10-25T17:03:47.049+00:00",
       "lat": 24.9435461,
       "lng": 121.3740856,
