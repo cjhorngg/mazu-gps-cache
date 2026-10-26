@@ -1,29 +1,29 @@
 {
   "status": "success",
-  "updateTime": "2026-10-25 13:09:12",
+  "updateTime": "2026-10-27 00:04:50",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.571413,
     "lng": 120.709244,
     "heading": null,
     "speed": null,
-    "address": "357台灣苗栗縣通霄鎮白東里拱天路8號",
-    "fixTime": "2026-10-25T05:09:10.884Z",
+    "address": "No. 8號, Gongtian Rd, 白東里通霄鎮苗栗縣台灣 357",
+    "fixTime": "2026-10-26T16:04:49.488Z",
     "source": "path_json"
   },
   "flag": {
     "lat": 25.051593,
     "lng": 121.287416,
-    "address": "338台灣桃園市蘆竹區錦中里南崁路一段129號",
+    "address": "No. 129號, Section 1, Nankan Rd, 錦中里蘆竹區桃園市台灣 338",
     "fixTime": "2026-10-14T19:20:19.000Z",
     "source": "s_php_g"
   },
   "weather": {
-    "icon": "d04",
-    "temp": 27,
-    "feelsLike": 26,
-    "humidity": 72,
-    "rain": 10,
+    "icon": "n01",
+    "temp": 22,
+    "feelsLike": 20,
+    "humidity": 89,
+    "rain": 0,
     "windText": "東北風 4",
     "windLevel": null
   },
@@ -51,7 +51,7 @@
   "leadingFlag": {
     "lat": 25.051593,
     "lng": 121.287416,
-    "address": "338台灣桃園市蘆竹區錦中里南崁路一段129號",
+    "address": "No. 129號, Section 1, Nankan Rd, 錦中里蘆竹區桃園市台灣 338",
     "fixTime": "2026-10-14T19:20:19.000Z",
     "source": "s_php_g"
   },
