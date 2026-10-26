@@ -1,9 +1,8 @@
 {
   "status": "success",
   "server": "traccar",
-  "source": "traccar",
+  "message": "committed (moved)",
   "updateTime": "2026-10-26 21:08:51",
-  "timezone": "Asia/Taipei",
   "devices": [
     {
       "id": 5,
@@ -53,6 +52,5 @@
       "speed": 0,
       "accuracy": null
     }
-  ],
-  "parkedSince": "2026-10-26 20:32:50"
+  ]
 }
