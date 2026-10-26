@@ -1,0 +1,51 @@
+{
+  "status": "success",
+  "message": "committed (moved)",
+  "updateTime": "2026-10-26 01:35:55",
+  "devices": [
+    {
+      "id": 5,
+      "name": "RWS 20",
+      "status": "offline",
+      "lastUpdate": null,
+      "lat": null,
+      "lng": null,
+      "fixTime": null,
+      "heading": null,
+      "speed": null
+    },
+    {
+      "id": 6,
+      "name": "ZenLife",
+      "status": "offline",
+      "lastUpdate": null,
+      "lat": null,
+      "lng": null,
+      "fixTime": null,
+      "heading": null,
+      "speed": null
+    },
+    {
+      "id": 1,
+      "name": "媽祖",
+      "status": "unknown",
+      "lastUpdate": "2026-10-25T17:03:47.049+00:00",
+      "lat": 24.9435461,
+      "lng": 121.3740856,
+      "fixTime": "2026-10-25T17:03:40.000+00:00",
+      "heading": 0,
+      "speed": 0
+    },
+    {
+      "id": 2,
+      "name": "頭旗",
+      "status": "offline",
+      "lastUpdate": "2026-04-11T09:13:25.501+00:00",
+      "lat": 24.9430412,
+      "lng": 121.3741943,
+      "fixTime": "2026-04-11T09:13:18.825+00:00",
+      "heading": 0,
+      "speed": 0
+    }
+  ]
+}
