@@ -27,7 +27,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          URL="https://script.google.com/macros/s/AKfycby-y7JYE7NISiInymVH1kbL9lYYtreNv3qRdoVvRcysUeyEoB8aVgrrKS9BsbA2Yw2V/exec?action=cronPush&key=${WEB_APP_SECRET}"
+          URL="https://script.google.com/macros/s/AKfycby-y7JYE7NISiInymVH1kbL9lYYtreNv3qRdoVvRcysUeyEoB8aVgrrKS9BsbA2Yw2V/exec?action=cronPush&key=${WEB_APP_SECRET}&server=traccar"
 
           for i in 1 2 3; do
             echo "Attempt $i..."
