@@ -1,27 +1,27 @@
 {
   "status": "success",
   "source": "traccar",
-  "updateTime": "2026-10-25 22:45:34",
+  "updateTime": "2026-10-26 21:20:33",
   "timezone": "Asia/Taipei",
   "mazu": {
-    "lat": 24.9442077,
-    "lng": 121.3736262,
-    "heading": 136.53524780273438,
-    "speed": 0.4,
-    "address": "237台灣新北市三峽區龍恩里鳶飛大道1號",
-    "timestamp": "20261025124401",
-    "fixTime": "2026-10-25 12:44:01"
+    "lat": 24.9436405,
+    "lng": 121.3740817,
+    "heading": 0,
+    "speed": 0,
+    "address": "No. 143, Daxue Rd, 龍恩里三峽區新北市台灣 237",
+    "timestamp": "20261026210722",
+    "fixTime": "2026-10-26 21:07:22"
   },
   "weather": null,
   "leadingFlag": {
     "lat": 24.9430412,
     "lng": 121.3741943,
-    "address": "237台灣新北市三峽區龍恩里國際一街20號"
+    "address": "No. 20, Guoji 1st St, 龍恩里三峽區新北市台灣 237"
   },
   "flag": {
     "lat": 24.9430412,
     "lng": 121.3741943,
-    "address": "237台灣新北市三峽區龍恩里國際一街20號"
+    "address": "No. 20, Guoji 1st St, 龍恩里三峽區新北市台灣 237"
   },
   "parkedSince": "2026-10-25 16:59:25"
 }
