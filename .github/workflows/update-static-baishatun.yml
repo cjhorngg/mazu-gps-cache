@@ -1,0 +1,25 @@
+name: Update Static Content Baishatun
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call GAS cronPushStatic
+        env:
+          WEB_APP_SECRET: ${{ secrets.WEB_APP_SECRET }}
+        run: |
+          set -euo pipefail
+          URL="https://script.google.com/macros/s/AKfycbxJAlXwKv8tUgc9DQEpSDxPSLHI0Gl8deFqiDgbCoYHzz-xIKDAd8g0n8G5pGMErrq9pg/exec?action=cronPushStatic&key=${WEB_APP_SECRET}"
+          HTTP=$(curl -sSL --max-time 30 -o /tmp/resp.json -w '%{http_code}' "$URL")
+          echo "HTTP $HTTP"
+          jq '.' /tmp/resp.json
+          STATUS=$(jq -r '.status' /tmp/resp.json)
+          [ "$STATUS" = "success" ] || exit 1
