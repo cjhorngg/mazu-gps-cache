@@ -1,0 +1,25 @@
+name: Update Static Content p2
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call GAS cronPushStatic
+        env:
+          WEB_APP_SECRET: ${{ secrets.WEB_APP_SECRET }}
+        run: |
+          set -euo pipefail
+          URL="https://script.google.com/macros/s/AKfycbyUkj6Y8_tQS9N9Tjjd2etrCHTT17gH4qjxJJEUbZudPzcBBKeuTsH-BoIZJekBtFXcDQ/exec?action=cronPushStatic&key=${WEB_APP_SECRET}"
+          HTTP=$(curl -sSL --max-time 30 -o /tmp/resp.json -w '%{http_code}' "$URL")
+          echo "HTTP $HTTP"
+          jq '.' /tmp/resp.json
+          STATUS=$(jq -r '.status' /tmp/resp.json)
+          [ "$STATUS" = "success" ] || exit 1
