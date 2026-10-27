@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "content": "08:00 - 10:00 測試中 : 媽祖已駐駕北港朝天宮，預計停留至明日清晨",
+      "priority": 5,
+      "isActive": true,
+      "createdAt": "2026-04-03T14:44:57.025Z",
+      "expireAt": ""
+    }
+  ],
+  "updated": "2026-10-27 23:21:13"
+}
