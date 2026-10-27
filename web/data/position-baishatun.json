@@ -1,19 +1,46 @@
 {
   "status": "success",
-  "message": "committed (moved)",
-  "updateTime": "2026-10-26 21:20:33",
+  "source": "traccar",
+  "updateTime": "2026-10-27 17:29:28",
+  "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.9436405,
     "lng": 121.3740817,
     "heading": 0,
     "speed": 0,
-    "address": "No. 143, Daxue Rd, 龍恩里三峽區新北市台灣 237",
+    "address": "237台灣新北市三峽區龍恩里大學路143號",
     "timestamp": "20261026210722",
-    "fixTime": "2026-10-26 21:07:22"
+    "fixTime": "2026-10-26 21:07:22",
+    "fixTimeIso": "2026-10-26T13:07:22.000Z",
+    "source": "traccar"
+  },
+  "weather": {
+    "temp": 23.6,
+    "rain": 0,
+    "windLevel": 2.3,
+    "windText": null,
+    "feelsLike": null,
+    "humidity": null,
+    "icon": null,
+    "station": "三峽",
+    "updated": "2026-10-27 17:22:16"
+  },
+  "sources": {
+    "mazu": "traccar",
+    "address": "geocoder",
+    "weather": "cwb",
+    "flag": "traccar"
   },
   "leadingFlag": {
     "lat": 24.9430412,
     "lng": 121.3741943,
-    "address": "No. 20, Guoji 1st St, 龍恩里三峽區新北市台灣 237"
-  }
+    "address": "237台灣新北市三峽區龍恩里國際一街20號"
+  },
+  "flag": {
+    "lat": 24.9430412,
+    "lng": 121.3741943,
+    "address": "237台灣新北市三峽區龍恩里國際一街20號"
+  },
+  "parkedSince": "2026-10-27 17:01:08",
+  "stale": true
 }
