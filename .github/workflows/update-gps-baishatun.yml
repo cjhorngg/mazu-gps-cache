@@ -6,148 +6,31 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
-
-concurrency:
-  group: mazu-gps-baishatun
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  update-gps:
+  trigger-gas:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Fetch Mazu position from GAS
-        id: fetch
+      - name: Call GAS cronPush
         env:
           WEB_APP_SECRET: ${{ secrets.WEB_APP_SECRET }}
         run: |
           set -euo pipefail
-
           URL="https://script.google.com/macros/s/AKfycbxJAlXwKv8tUgc9DQEpSDxPSLHI0Gl8deFqiDgbCoYHzz-xIKDAd8g0n8G5pGMErrq9pg/exec?action=cronPush&key=${WEB_APP_SECRET}"
-
           for i in 1 2 3; do
-            echo "Attempt $i..."
             HTTP_CODE=$(curl -sSL --max-time 20 -o /tmp/resp.json -w '%{http_code}' "$URL" || echo "000")
-            echo "HTTP $HTTP_CODE"
+            echo "Attempt $i: HTTP $HTTP_CODE"
             if [ "$HTTP_CODE" = "200" ] && head -c 1 /tmp/resp.json | grep -q '{'; then
               break
             fi
             sleep $((i * 5))
           done
-
-          if [ ! -s /tmp/resp.json ]; then
-            echo "::error::Empty response from GAS"
-            exit 1
-          fi
-          if grep -qi '<html' /tmp/resp.json; then
-            echo "::error::GAS returned HTML (deployment access misconfigured?)"
-            exit 1
-          fi
-          if ! jq -e . /tmp/resp.json > /dev/null 2>&1; then
-            echo "::error::Response is not valid JSON"
-            head -c 500 /tmp/resp.json
-            exit 1
-          fi
-
+          if [ ! -s /tmp/resp.json ]; then echo "::error::Empty response"; exit 1; fi
+          if grep -qi '<html' /tmp/resp.json; then echo "::error::GAS returned HTML"; exit 1; fi
           STATUS=$(jq -r '.status // "unknown"' /tmp/resp.json)
           echo "GAS status: $STATUS"
-
           case "$STATUS" in
-            success)
-              ;;
-            skipped)
-              # Movement gate fired — nothing new. This is a healthy no-op.
-              echo "Position unchanged per GAS; skipping commit."
-              echo "do_commit=false" >> "$GITHUB_OUTPUT"
-              exit 0
-              ;;
-            forbidden)
-              echo "::error::GAS rejected the request (missing/wrong WEB_APP_SECRET?)"
-              exit 1
-              ;;
-            *)
-              echo "::error::Unexpected status: $STATUS"
-              cat /tmp/resp.json
-              exit 1
-              ;;
+            success|skipped) ;;
+            *) echo "::error::Unexpected status: $STATUS"; cat /tmp/resp.json; exit 1 ;;
           esac
-
-          # status == success → save the payload for the commit step
-          mkdir -p web/data
-          mv /tmp/resp.json web/data/position-baishatun.json
-
-          # ---- Position-signature gate (only commit when it actually moved) ----
-          # Strip volatile fields so the comparison fires only on real movement.
-          jq '{
-            status,
-            mazu: (if .mazu then {lat: .mazu.lat, lng: .mazu.lng, source: .mazu.source} else null end),
-            leadingFlag: (if .leadingFlag then {lat: .leadingFlag.lat, lng: .leadingFlag.lng} else null end),
-            flag: (if .flag then {lat: .flag.lat, lng: .flag.lng} else null end)
-          }' web/data/position-baishatun.json > /tmp/pos-signature.json
-
-          NEW_SIG=$(sha256sum /tmp/pos-signature.json | awk '{print $1}')
-          OLD_SIG=""
-          if [ -f web/data/.pos-signature-baishatun.json ]; then
-            OLD_SIG=$(sha256sum web/data/.pos-signature-baishatun.json | awk '{print $1}')
-          fi
-
-          if [ "$NEW_SIG" = "$OLD_SIG" ]; then
-            echo "Position signature unchanged ($NEW_SIG); skipping commit."
-            echo "do_commit=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
-          echo "Position changed; will commit."
-          cp /tmp/pos-signature.json web/data/.pos-signature-baishatun.json
-
-          # Keep the full payload (only strip the internal .github sub-object
-          # that GAS returned; keep parkedSince, updateTime, weather, etc.
-          # so the frontend's isDataStale() keeps working).
-          jq 'del(.github)' web/data/position-baishatun.json > /tmp/full-payload.json
-          mv /tmp/full-payload.json web/data/position-baishatun.json
-
-          echo "do_commit=true" >> "$GITHUB_OUTPUT"
-
-      - name: Commit and push
-        if: steps.fetch.outputs.do_commit == 'true'
-        run: |
-          set -euo pipefail
-
-          # Save the freshly built files so the reset in the loop doesn't destroy them.
-          cp web/data/position-baishatun.json         /tmp/keep-position.json
-          cp web/data/.pos-signature-baishatun.json   /tmp/keep-signature.json
-
-          for attempt in 1 2 3; do
-            echo "===== Push attempt $attempt ====="
-
-            git fetch origin main
-            git reset --hard origin/main
-
-            cp /tmp/keep-position.json  web/data/position-baishatun.json
-            cp /tmp/keep-signature.json web/data/.pos-signature-baishatun.json
-
-            git add web/data/position-baishatun.json web/data/.pos-signature-baishatun.json
-            if git diff --cached --quiet; then
-              echo "Nothing to commit after reset (remote already has our state)."
-              exit 0
-            fi
-
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git commit -m "Update GPS position [skip ci]"
-
-            if git push origin main; then
-              echo "Push succeeded on attempt $attempt."
-              exit 0
-            fi
-
-            echo "Push rejected; will rebuild from remote HEAD and retry."
-            sleep $((attempt * 3))
-          done
-
-          echo "::error::Push failed after 3 attempts"
-          exit 1
