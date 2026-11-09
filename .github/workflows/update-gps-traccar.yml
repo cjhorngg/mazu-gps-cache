@@ -2,7 +2,7 @@ name: Update GPS Position (Traccar)
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # GitHub-side fallback, every 6 hours
+    - cron: '0 0 1 * *'   # GitHub-side fallback, every 6 hours
   workflow_dispatch:         # primary trigger (cron-job.org)
 
 permissions:
