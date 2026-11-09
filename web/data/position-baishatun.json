@@ -1,7 +1,7 @@
 {
   "status": "success",
   "source": "traccar",
-  "updateTime": "2026-11-02 11:56:57",
+  "updateTime": "2026-11-09 15:54:53",
   "timezone": "Asia/Taipei",
   "mazu": {
     "lat": 24.9436405,
@@ -15,15 +15,15 @@
     "source": "traccar"
   },
   "weather": {
-    "temp": 29,
+    "temp": 19.4,
     "rain": 0,
-    "windLevel": 0.1,
+    "windLevel": 0.9,
     "windText": null,
     "feelsLike": null,
     "humidity": null,
     "icon": null,
     "station": "三峽",
-    "updated": "2026-11-02 11:56:57"
+    "updated": "2026-11-09 15:54:53"
   },
   "sources": {
     "mazu": "traccar",
