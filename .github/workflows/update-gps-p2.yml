@@ -27,7 +27,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          URL="https://script.google.com/macros/s/AKfycbyUkj6Y8_tQS9N9Tjjd2etrCHTT17gH4qjxJJEUbZudPzcBBKeuTsH-BoIZJekBtFXcDQ/exec?action=getLocations&includeFlag=true&skipGitHub=true&key=${WEB_APP_SECRET}"
+          URL="https://script.google.com/macros/s/AKfycby-0yCZUz8gumKcePMaO6QKy1Yxg4OPd5EtCIXMCIVILiHK2FVPZTTnAVbmmxUlxpRIXw/exec?action=getLocations&includeFlag=true&skipGitHub=true&key=${WEB_APP_SECRET}"
 
           for i in 1 2 3; do
             echo "Attempt $i..."
