@@ -17,6 +17,8 @@ jobs:
           WEB_APP_SECRET: ${{ secrets.WEB_APP_SECRET }}
         run: |
           set -euo pipefail
+
+          # GAS_URL : truck-staging-locations-p2
           URL="https://script.google.com/macros/s/AKfycby-0yCZUz8gumKcePMaO6QKy1Yxg4OPd5EtCIXMCIVILiHK2FVPZTTnAVbmmxUlxpRIXw/exec?action=cronPushStatic&key=${WEB_APP_SECRET}"
           HTTP=$(curl -sSL --max-time 30 -o /tmp/resp.json -w '%{http_code}' "$URL")
           echo "HTTP $HTTP"
