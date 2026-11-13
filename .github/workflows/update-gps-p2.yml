@@ -27,6 +27,7 @@ jobs:
         run: |
           set -euo pipefail
 
+          # GAS_URL : truck-staging-locations-p2
           URL="https://script.google.com/macros/s/AKfycby-0yCZUz8gumKcePMaO6QKy1Yxg4OPd5EtCIXMCIVILiHK2FVPZTTnAVbmmxUlxpRIXw/exec?action=getLocations&includeFlag=true&skipGitHub=true&key=${WEB_APP_SECRET}"
 
           for i in 1 2 3; do
